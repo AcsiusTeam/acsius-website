@@ -1,0 +1,105 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { Header } from "@/components/site/Header";
+import { Footer } from "@/components/site/Footer";
+import { CtaBand } from "@/components/site/CtaBand";
+import { Contact } from "@/components/site/Contact";
+import { Newsletter } from "@/components/site/Newsletter";
+import { WebsiteRedesignPage } from "@/components/site/WebsiteRedesignPage";
+import { WR_FAQS } from "@/lib/website-redesign";
+
+const URL = "https://acsius-elevate-digital.lovable.app/website-redesign-company";
+const TITLE = "Website Redesign Company India | Redesign Services";
+const DESCRIPTION =
+  "Website redesign company in India rebuilding slow, dated sites into fast, modern, conversion-first websites — redirect mapping, SEO migration and Core Web Vitals handled. Live in 4-6 weeks.";
+
+export const Route = createFileRoute("/website-redesign-company")({
+  head: () => ({
+    meta: [
+      { title: TITLE },
+      { name: "description", content: DESCRIPTION },
+      { property: "og:title", content: TITLE },
+      { property: "og:description", content: DESCRIPTION },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: URL },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+    links: [{ rel: "canonical", href: URL }],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Service",
+          serviceType: "Website Redesign Services",
+          name: "Website Redesign Company India",
+          description: DESCRIPTION,
+          areaServed: "IN",
+          url: URL,
+          provider: {
+            "@type": "ProfessionalService",
+            name: "ACSIUS Technologies",
+            telephone: "+91-9891764802",
+            email: "sales@acsius.com",
+            address: {
+              "@type": "PostalAddress",
+              streetAddress: "52-A, 301-3rd Floor, Krishna Complex, Hasanpur",
+              addressLocality: "New Delhi",
+              postalCode: "110092",
+              addressCountry: "IN",
+            },
+          },
+        }),
+      },
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: WR_FAQS.map((faq) => ({
+            "@type": "Question",
+            name: faq.q,
+            acceptedAnswer: { "@type": "Answer", text: faq.a },
+          })),
+        }),
+      },
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            {
+              "@type": "ListItem",
+              position: 1,
+              name: "Home",
+              item: "https://acsius-elevate-digital.lovable.app/",
+            },
+            { "@type": "ListItem", position: 2, name: "Website Redesign Company", item: URL },
+          ],
+        }),
+      },
+    ],
+  }),
+  component: WebsiteRedesign,
+});
+
+function WebsiteRedesign() {
+  return (
+    <div className="min-h-screen overflow-x-hidden bg-background">
+      <Header />
+      <main>
+        <WebsiteRedesignPage />
+        <CtaBand
+          eyebrow="Redesign without the risk"
+          heading="Ready to redesign without losing a single ranking?"
+          body="Share your current site URL and goals. Within two working days you get an audit summary, a redesign direction, a fixed price and a launch plan — plus an optional single page for your Google Ads."
+          primaryLabel="Get a Redesign Quote"
+          secondaryLabel="Request a Free Site Audit"
+        />
+        <Contact />
+        <Newsletter />
+      </main>
+      <Footer />
+    </div>
+  );
+}
