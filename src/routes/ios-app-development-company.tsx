@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { IosAppPage } from "@/components/site/IosAppPage";
 import { IOS_FAQS } from "@/lib/ios-app";
 
-const URL = "https://acsius-elevate-digital.lovable.app/ios-app-development-company";
+const URL = "https://www.acsius.com/ios-app-development-company";
 const TITLE = "iOS App Development Company | iOS App Developers India";
 const DESCRIPTION =
   "ACSIUS is an iOS app development company in India. Hire iOS app developers for Swift & SwiftUI iPhone, iPad and Watch apps with backend, QA and App Store launch. Free consultation.";
@@ -72,7 +72,7 @@ export const Route = createFileRoute("/ios-app-development-company")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "iOS App Development Company", item: URL },
           ],

@@ -3,7 +3,7 @@ import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { PrivacyPage } from "@/components/site/PrivacyPage";
 
-const URL = "https://acsius-elevate-digital.lovable.app/privacy-policy";
+const URL = "https://www.acsius.com/privacy-policy";
 const TITLE = "Privacy Policy | ACSIUS Technologies";
 const DESCRIPTION =
   "Learn how ACSIUS collects, uses, and protects your personal information. Read our transparent and secure Privacy Policy for complete user data safety.";

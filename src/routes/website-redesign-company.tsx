@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { WebsiteRedesignPage } from "@/components/site/WebsiteRedesignPage";
 import { WR_FAQS } from "@/lib/website-redesign";
 
-const URL = "https://acsius-elevate-digital.lovable.app/website-redesign-company";
+const URL = "https://www.acsius.com/website-redesign-company";
 const TITLE = "Website Redesign Company India | Redesign Services";
 const DESCRIPTION =
   "Website redesign company in India rebuilding slow, dated sites into fast, modern, conversion-first websites — redirect mapping, SEO migration and Core Web Vitals handled. Live in 4-6 weeks.";
@@ -72,7 +72,7 @@ export const Route = createFileRoute("/website-redesign-company")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "Website Redesign Company", item: URL },
           ],

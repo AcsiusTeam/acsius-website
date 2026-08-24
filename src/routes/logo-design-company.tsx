@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { LogoDesignPage } from "@/components/site/LogoDesignPage";
 import { LD_FAQS } from "@/lib/logo-design";
 
-const URL = "https://acsius-elevate-digital.lovable.app/logo-design-company";
+const URL = "https://www.acsius.com/logo-design-company";
 const TITLE = "Logo Design Company in India | Creative Logo Design | ACSIUS";
 const DESCRIPTION =
   "ACSIUS offers logo design services in India — creative logo design, monograms and full identity kits with vector source files. Three routes in 48 hours. Get a quote.";
@@ -72,7 +72,7 @@ export const Route = createFileRoute("/logo-design-company")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "Logo Design Company", item: URL },
           ],

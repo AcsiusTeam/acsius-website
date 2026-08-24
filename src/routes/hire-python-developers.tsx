@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { PythonDevPage } from "@/components/site/PythonDevPage";
 import { PY_FAQS } from "@/lib/python-dev";
 
-const URL = "https://acsius-elevate-digital.lovable.app/hire-python-developers";
+const URL = "https://www.acsius.com/hire-python-developers";
 const TITLE = "Hire Python Developers India | Dedicated Python Programmers — ACSIUS";
 const DESCRIPTION =
   "Hire dedicated Python developers in India from ACSIUS — senior Python programmers for hire across Django, FastAPI, data pipelines, automation and AI. Profiles in 48 hours.";
@@ -72,7 +72,7 @@ export const Route = createFileRoute("/hire-python-developers")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "Hire Python Developers", item: URL },
           ],

@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { OrmPage } from "@/components/site/OrmPage";
 import { ORM_FAQS } from "@/lib/orm";
 
-const URL = "https://acsius-elevate-digital.lovable.app/online-reputation-management-company";
+const URL = "https://www.acsius.com/online-reputation-management-company";
 const TITLE = "Online Reputation Management Company India | ORM Services — ACSIUS";
 const DESCRIPTION =
   "ACSIUS is an online reputation management company in India offering ORM services — 24x7 monitoring, search suppression, review growth, removals and crisis response with weekly reporting.";
@@ -72,7 +72,7 @@ export const Route = createFileRoute("/online-reputation-management-company")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             {
               "@type": "ListItem",

@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { SeoCompanyPage } from "@/components/site/SeoCompanyPage";
 import { SC_FAQS } from "@/lib/seo-company";
 
-const URL = "https://acsius-elevate-digital.lovable.app/seo-company-india";
+const URL = "https://www.acsius.com/seo-company-india";
 const TITLE = "SEO Company India | Best SEO Agency in India — ACSIUS";
 const DESCRIPTION =
   "ACSIUS is an SEO agency in India delivering technical SEO, keyword strategy, content and editorial link building with reporting on leads and revenue. Free scored audit before you commit.";
@@ -72,7 +72,7 @@ export const Route = createFileRoute("/seo-company-india")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "SEO Company India", item: URL },
           ],

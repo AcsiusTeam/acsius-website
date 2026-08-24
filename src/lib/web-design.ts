@@ -1,8 +1,7 @@
 export const WD_HERO = {
   eyebrow: "Web Design Services in India · New Delhi · Since 2010",
   h1: ["Website Designing Company", "in India that designs", "for growth, not applause."],
-  lead:
-    "ACSIUS Technologies is a website design company in India delivering web design services for startups, SMBs and enterprises — strategy, UI/UX, WordPress, Shopify and custom development in one accountable team.",
+  lead: "ACSIUS Technologies is a website design company in India delivering web design services for startups, SMBs and enterprises — strategy, UI/UX, WordPress, Shopify and custom development in one accountable team.",
   support:
     "Affordable web design services with fixed scope, transparent pricing and a written timeline. 3000+ websites delivered for clients in 35+ countries.",
   stats: [
@@ -151,8 +150,7 @@ export const WD_SERVICES: WdService[] = [
   {
     key: "landing",
     name: "Landing Pages & CRO",
-    summary:
-      "High-intent pages for campaigns, plus conversion work on the pages you already have.",
+    summary: "High-intent pages for campaigns, plus conversion work on the pages you already have.",
     points: [
       "Campaign landing pages matched to ad message and audience",
       "Form length, field order and micro-copy tested for completion",
@@ -183,55 +181,73 @@ export const WD_PROCESS = [
     step: "01",
     title: "Discovery & Scope",
     duration: "Week 1",
-    body:
-      "A free consultation, then a working session on goals, audience, competitors and content. You receive a written scope, sitemap and fixed budget range before anything is designed.",
+    body: "A free consultation, then a working session on goals, audience, competitors and content. You receive a written scope, sitemap and fixed budget range before anything is designed.",
   },
   {
     step: "02",
     title: "Wireframes & Structure",
     duration: "Week 1–2",
-    body:
-      "Page-by-page wireframes and content hierarchy. We agree what each page must prove and where the enquiry actions live — the cheapest stage to change your mind.",
+    body: "Page-by-page wireframes and content hierarchy. We agree what each page must prove and where the enquiry actions live — the cheapest stage to change your mind.",
   },
   {
     step: "03",
     title: "Visual Design & Mockups",
     duration: "Week 2–4",
-    body:
-      "Home page design first, then inner templates. Mockups are shared over email and WhatsApp with review calls, and revised until you sign off.",
+    body: "Home page design first, then inner templates. Mockups are shared over email and WhatsApp with review calls, and revised until you sign off.",
   },
   {
     step: "04",
     title: "Development & Integrations",
     duration: "Week 3–6",
-    body:
-      "Responsive front-end, CMS build on WordPress, Shopify or custom stack, forms, payments and third-party integrations — reviewed on a staging link throughout.",
+    body: "Responsive front-end, CMS build on WordPress, Shopify or custom stack, forms, payments and third-party integrations — reviewed on a staging link throughout.",
   },
   {
     step: "05",
     title: "Testing & Launch",
     duration: "Launch week",
-    body:
-      "Cross-browser and real-device testing, speed tuning, SEO checks, redirects, analytics and Search Console setup, then a controlled go-live.",
+    body: "Cross-browser and real-device testing, speed tuning, SEO checks, redirects, analytics and Search Console setup, then a controlled go-live.",
   },
   {
     step: "06",
     title: "Training & Support",
     duration: "Month 1 onward",
-    body:
-      "A user guide and walkthrough so your team can edit content confidently, plus one month of free maintenance and optional ongoing SEO or support.",
+    body: "A user guide and walkthrough so your team can edit content confidently, plus one month of free maintenance and optional ongoing SEO or support.",
   },
 ];
 
 export const WD_INDUSTRIES = [
-  { name: "Healthcare & Clinics", body: "Appointment-focused sites with treatment pages, doctor profiles and trust signals patients look for." },
-  { name: "Ecommerce & D2C", body: "Shopify and WooCommerce stores designed around browsing, product confidence and fast checkout." },
-  { name: "Manufacturing & Export", body: "Capability, specification and certification pages that convince international buyers to enquire." },
-  { name: "Real Estate", body: "Project showcases, locality pages, gallery-led layouts and enquiry paths built for site visits." },
-  { name: "Education & EdTech", body: "Course catalogues, admission journeys and content structures that answer student questions." },
-  { name: "Finance & Insurance", body: "Compliance-aware design with calculators, explainers and credibility-first page structure." },
-  { name: "Travel & Hospitality", body: "Visual, mobile-first booking journeys with seasonal landing pages and enquiry capture." },
-  { name: "Professional Services", body: "Law, consulting and agency websites where clarity, proof and authority do the selling." },
+  {
+    name: "Healthcare & Clinics",
+    body: "Appointment-focused sites with treatment pages, doctor profiles and trust signals patients look for.",
+  },
+  {
+    name: "Ecommerce & D2C",
+    body: "Shopify and WooCommerce stores designed around browsing, product confidence and fast checkout.",
+  },
+  {
+    name: "Manufacturing & Export",
+    body: "Capability, specification and certification pages that convince international buyers to enquire.",
+  },
+  {
+    name: "Real Estate",
+    body: "Project showcases, locality pages, gallery-led layouts and enquiry paths built for site visits.",
+  },
+  {
+    name: "Education & EdTech",
+    body: "Course catalogues, admission journeys and content structures that answer student questions.",
+  },
+  {
+    name: "Finance & Insurance",
+    body: "Compliance-aware design with calculators, explainers and credibility-first page structure.",
+  },
+  {
+    name: "Travel & Hospitality",
+    body: "Visual, mobile-first booking journeys with seasonal landing pages and enquiry capture.",
+  },
+  {
+    name: "Professional Services",
+    body: "Law, consulting and agency websites where clarity, proof and authority do the selling.",
+  },
 ];
 
 export const WD_OUTCOMES = [
@@ -345,43 +361,50 @@ export const WD_PILLARS = [
     key: "strategy",
     tab: "Strategy first",
     title: "We design the argument before the interface",
-    body:
-      "Most websites in India are built the wrong way round — a template is bought, content is squeezed in, and the result looks acceptable but converts poorly. We start with your buyer: what they need to be sure of, and what the page must prove in the first five seconds.",
-    facts: ["Buyer and competitor research", "Wireframes signed off first", "One clear job per page"],
+    body: "Most websites in India are built the wrong way round — a template is bought, content is squeezed in, and the result looks acceptable but converts poorly. We start with your buyer: what they need to be sure of, and what the page must prove in the first five seconds.",
+    facts: [
+      "Buyer and competitor research",
+      "Wireframes signed off first",
+      "One clear job per page",
+    ],
   },
   {
     key: "team",
     tab: "One in-house team",
     title: "Design, build and launch under one roof",
-    body:
-      "Research, UI/UX, responsive front-end, CMS development on WordPress, Shopify or a custom stack, technical SEO and speed work all happen in-house. One point of contact from the first call to go-live — no agency middle layer, no freelancer marketplace.",
+    body: "Research, UI/UX, responsive front-end, CMS development on WordPress, Shopify or a custom stack, technical SEO and speed work all happen in-house. One point of contact from the first call to go-live — no agency middle layer, no freelancer marketplace.",
     facts: ["Named project contact", "Email, WhatsApp and review calls", "Staging link throughout"],
   },
   {
     key: "pricing",
     tab: "Affordable, fixed",
     title: "Affordable does not mean cheap",
-    body:
-      "Budget goes into the pages that earn — home, services, enquiry flow, product templates — instead of decorative extras nobody scrolls to. You get a fixed scope with a fixed range, and if something changes we price it before we build it.",
+    body: "Budget goes into the pages that earn — home, services, enquiry flow, product templates — instead of decorative extras nobody scrolls to. You get a fixed scope with a fixed range, and if something changes we price it before we build it.",
     facts: ["Written scope and sitemap", "Fixed budget range", "No surprise invoices"],
   },
   {
     key: "handover",
     tab: "Built to last",
     title: "Fast, findable and yours to run",
-    body:
-      "Every website is designed mobile-first, tested on real devices, tuned for Core Web Vitals and structured for search engines and AI answer engines — then handed over with a plain-language user guide and one month of free maintenance.",
-    facts: ["Mobile-first, real-device tested", "Schema and SEO groundwork", "User guide + 1 month support"],
+    body: "Every website is designed mobile-first, tested on real devices, tuned for Core Web Vitals and structured for search engines and AI answer engines — then handed over with a plain-language user guide and one month of free maintenance.",
+    facts: [
+      "Mobile-first, real-device tested",
+      "Schema and SEO groundwork",
+      "User guide + 1 month support",
+    ],
   },
 ];
 
-import magicTouchBefore from "@/assets/magictouch-before.png.asset.json";
-import bougrougBefore from "@/assets/Bougroug-before.png.asset.json";
-import elburgonBefore from "@/assets/Elburgon_Flies_Supply-before.png.asset.json";
+// import magicTouchBefore from "@/assets/magictouch-before.png.asset.json";
+// import bougrougBefore from "@/assets/Bougroug-before.png.asset.json";
+// import elburgonBefore from "@/assets/Elburgon_Flies_Supply-before.png.asset.json";
+import magicTouchBefore from "@/assets/case-magictouch.png";
+import bougrougBefore from "@/assets/images/Bougroug-before.webp";
+import elburgonBefore from "@/assets/Elburgon_Flies_Supply-before.png";
 
 export const WD_BEFORE_AFTER = [
   {
-    beforeImage: magicTouchBefore.url,
+    beforeImage: magicTouchBefore,
     client: "Magic Touch",
     site: "magictouch.ba",
     platform: "WordPress redesign",
@@ -391,7 +414,7 @@ export const WD_BEFORE_AFTER = [
       "Mobile-first redesign with treatment pages, an online webshop and clear booking actions — organic sessions up 61%.",
   },
   {
-    beforeImage: bougrougBefore.url,
+    beforeImage: bougrougBefore,
     client: "BeautySups",
     site: "beautysups.com",
     platform: "WordPress → Shopify",
@@ -401,7 +424,7 @@ export const WD_BEFORE_AFTER = [
       "A full Shopify store with a version upgrade, Klaviyo automation, Klarna, Stripe and other payment gateways built for mobile buying.",
   },
   {
-    beforeImage: elburgonBefore.url,
+    beforeImage: elburgonBefore,
     client: "Elburgon Flies Supply",
     site: "troutflyfishingflieskenya.com",
     platform: "WordPress ecommerce",

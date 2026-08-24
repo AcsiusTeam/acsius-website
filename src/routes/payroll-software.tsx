@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { PayrollPage } from "@/components/site/PayrollPage";
 import { PAY_FAQS } from "@/lib/payroll";
 
-const URL = "https://acsius-elevate-digital.lovable.app/payroll-software";
+const URL = "https://www.acsius.com/payroll-software";
 const TITLE = "Payroll Software in India | Cloud Payroll for Business — ACSIUS";
 const DESCRIPTION =
   "Cloud payroll software for businesses in India — salary structures, attendance inputs, PF, ESI, PT and TDS compliance, payslips and employee self-service. Live in about 21 days.";
@@ -78,7 +78,7 @@ export const Route = createFileRoute("/payroll-software")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "Payroll Software", item: URL },
           ],

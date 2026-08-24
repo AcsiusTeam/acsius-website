@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { WebDevelopmentPage } from "@/components/site/WebDevelopmentPage";
 import { WEB_FAQS } from "@/lib/web-development";
 
-const URL = "https://acsius-elevate-digital.lovable.app/web-development";
+const URL = "https://www.acsius.com/web-development";
 const TITLE = "Web Development Company in India | Website Development Services — ACSIUS";
 const DESCRIPTION =
   "ACSIUS is a web development company in India offering website development services, web development services India, ecommerce, CMS and landing pages. Hire a website development company in India. Free quote.";
@@ -72,7 +72,7 @@ export const Route = createFileRoute("/web-development")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "Web Development", item: URL },
           ],

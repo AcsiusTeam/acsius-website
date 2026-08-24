@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { SchoolErpPage } from "@/components/site/SchoolErpPage";
 import { ERP_FAQS } from "@/lib/school-erp";
 
-const URL = "https://acsius-elevate-digital.lovable.app/school-erp-software";
+const URL = "https://www.acsius.com/school-erp-software";
 const TITLE = "School ERP Software India | Cloud School Management System — ACSIUS";
 const DESCRIPTION =
   "Cloud based school ERP software in India for CBSE, ICSE, State and IB schools — admissions, attendance, exams, online fees, transport and parent app. Live in about 30 days.";
@@ -35,7 +35,12 @@ export const Route = createFileRoute("/school-erp-software")({
           operatingSystem: "Web, Android, iOS",
           description: DESCRIPTION,
           url: URL,
-          offers: { "@type": "Offer", priceCurrency: "INR", price: "0", description: "Per-student annual subscription; free demo available" },
+          offers: {
+            "@type": "Offer",
+            priceCurrency: "INR",
+            price: "0",
+            description: "Per-student annual subscription; free demo available",
+          },
           provider: {
             "@type": "ProfessionalService",
             name: "ACSIUS Technologies",
@@ -73,7 +78,7 @@ export const Route = createFileRoute("/school-erp-software")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "School ERP Software", item: URL },
           ],

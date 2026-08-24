@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { AboutPage } from "@/components/site/AboutPage";
 import { ABOUT_FAQS } from "@/lib/about";
 
-const URL = "https://acsius-elevate-digital.lovable.app/about-us";
+const URL = "https://www.acsius.com/about-us";
 const TITLE = "About ACSIUS Technologies | Web Design & Development Company";
 const DESCRIPTION =
   "Founded in 2010 by Mr. Arun Singh, ACSIUS Technologies is a New Delhi web design, development and digital growth company — 40+ in-house specialists, 3000+ projects, 35+ countries.";
@@ -36,7 +36,7 @@ export const Route = createFileRoute("/about-us")({
           mainEntity: {
             "@type": "Organization",
             name: "ACSIUS Technologies",
-            url: "https://acsius-elevate-digital.lovable.app/",
+            url: "https://www.acsius.com/",
             foundingDate: "2010",
             founder: {
               "@type": "Person",
@@ -78,7 +78,7 @@ export const Route = createFileRoute("/about-us")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "About Us", item: URL },
           ],

@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { LaravelDevPage } from "@/components/site/LaravelDevPage";
 import { LRV_FAQS } from "@/lib/laravel-dev";
 
-const URL = "https://acsius-elevate-digital.lovable.app/hire-laravel-developers";
+const URL = "https://www.acsius.com/hire-laravel-developers";
 const TITLE = "Hire Laravel Developers India | Laravel Development — ACSIUS";
 const DESCRIPTION =
   "Hire Laravel developers from ACSIUS — a Laravel web development company in India. Hire dedicated Laravel developers for APIs, SaaS, admin panels and Laravel website development services. Profiles in 48 hours.";
@@ -72,7 +72,7 @@ export const Route = createFileRoute("/hire-laravel-developers")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "Hire Laravel Developers", item: URL },
           ],

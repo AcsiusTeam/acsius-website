@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { LandingPageDesignPage } from "@/components/site/LandingPageDesignPage";
 import { LP_FAQS } from "@/lib/landing-page";
 
-const URL = "https://acsius-elevate-digital.lovable.app/landing-page-design";
+const URL = "https://www.acsius.com/landing-page-design";
 const TITLE = "Landing Page Design Services India | ACSIUS";
 const DESCRIPTION =
   "Landing page design company in India building single, conversion-first pages for Google Ads and PPC — message-matched copy, fast load, tracking and A/B testing. Live in 7 days.";
@@ -72,7 +72,7 @@ export const Route = createFileRoute("/landing-page-design")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "Landing Page Design", item: URL },
           ],

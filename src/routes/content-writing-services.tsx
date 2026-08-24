@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { ContentWritingPage } from "@/components/site/ContentWritingPage";
 import { CW_FAQS } from "@/lib/content-writing";
 
-const URL = "https://acsius-elevate-digital.lovable.app/content-writing-services";
+const URL = "https://www.acsius.com/content-writing-services";
 const TITLE = "Content Writing Services India | Content Writing Company | ACSIUS";
 const DESCRIPTION =
   "ACSIUS is a content writing company in India — website copy, blogs, product descriptions, case studies and email sequences written by sector writers and edited by humans.";
@@ -72,7 +72,7 @@ export const Route = createFileRoute("/content-writing-services")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "Content Writing Services", item: URL },
           ],

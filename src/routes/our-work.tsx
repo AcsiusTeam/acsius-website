@@ -6,7 +6,7 @@ import { Contact } from "@/components/site/Contact";
 import { Newsletter } from "@/components/site/Newsletter";
 import { OurWorkPage } from "@/components/site/OurWorkPage";
 
-const URL = "https://acsius-elevate-digital.lovable.app/our-work";
+const URL = "https://www.acsius.com/our-work";
 const TITLE = "Our Work | Website Design, Development & SEO Case Studies — ACSIUS";
 const DESCRIPTION =
   "Explore ACSIUS portfolio: live website design, web development and SEO case studies for beauty, ecommerce, outdoor and professional services brands.";
@@ -57,7 +57,7 @@ export const Route = createFileRoute("/our-work")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "Our Work", item: URL },
           ],

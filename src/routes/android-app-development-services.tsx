@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { AndroidAppPage } from "@/components/site/AndroidAppPage";
 import { AND_FAQS } from "@/lib/android-app";
 
-const URL = "https://acsius-elevate-digital.lovable.app/android-app-development-services";
+const URL = "https://www.acsius.com/android-app-development-services";
 const TITLE = "Android App Development Services | Android Developers India";
 const DESCRIPTION =
   "ACSIUS is an Android development company in India. Hire Android app developers for native Kotlin, Jetpack Compose, Flutter and React Native apps with backend, QA and Google Play launch.";
@@ -72,9 +72,14 @@ export const Route = createFileRoute("/android-app-development-services")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
-            { "@type": "ListItem", position: 2, name: "Android App Development Services", item: URL },
+            {
+              "@type": "ListItem",
+              position: 2,
+              name: "Android App Development Services",
+              item: URL,
+            },
           ],
         }),
       },

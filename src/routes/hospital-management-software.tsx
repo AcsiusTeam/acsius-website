@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { HospitalPage } from "@/components/site/HospitalPage";
 import { HMS_FAQS } from "@/lib/hospital";
 
-const URL = "https://acsius-elevate-digital.lovable.app/hospital-management-software";
+const URL = "https://www.acsius.com/hospital-management-software";
 const TITLE = "Hospital Management Software India | Cloud HMS with Billing — ACSIUS";
 const DESCRIPTION =
   "Cloud based hospital management software for Indian hospitals and clinics — OPD, IPD, EMR, pharmacy, lab, insurance and billing in one system. Live in about 24 days.";
@@ -78,7 +78,7 @@ export const Route = createFileRoute("/hospital-management-software")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "Hospital Management Software", item: URL },
           ],

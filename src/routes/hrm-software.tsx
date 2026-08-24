@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { HrmPage } from "@/components/site/HrmPage";
 import { HRM_FAQS } from "@/lib/hrm";
 
-const URL = "https://acsius-elevate-digital.lovable.app/hrm-software";
+const URL = "https://www.acsius.com/hrm-software";
 const TITLE = "Best HRM Software in India | Cloud HR Management System — ACSIUS";
 const DESCRIPTION =
   "Cloud based HRM software for Indian businesses — employee records, onboarding, attendance, leave, performance, claims and an employee self-service app. Live in about 18 days.";
@@ -78,7 +78,7 @@ export const Route = createFileRoute("/hrm-software")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "HRM Software", item: URL },
           ],

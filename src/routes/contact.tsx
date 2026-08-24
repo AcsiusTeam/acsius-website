@@ -6,7 +6,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { ContactPage } from "@/components/site/ContactPage";
 import { CONTACT } from "@/lib/site";
 
-const URL = "https://acsius-elevate-digital.lovable.app/contact";
+const URL = "https://www.acsius.com/contact";
 const TITLE = "Contact ACSIUS Technologies | Website Design & Development Company";
 const DESCRIPTION =
   "Contact ACSIUS Technologies in New Delhi. Call +91 98 9176 4802, email info@acsius.com or visit 52-A, 301-3rd Floor, Krishna Complex, Hasanpur, New Delhi-110092. We reply within 4 hours.";
@@ -35,7 +35,7 @@ export const Route = createFileRoute("/contact")({
           mainEntity: {
             "@type": "Organization",
             name: "ACSIUS Technologies",
-            url: "https://acsius-elevate-digital.lovable.app/",
+            url: "https://www.acsius.com/",
             telephone: CONTACT.phone,
             email: CONTACT.email,
             address: {
@@ -58,7 +58,7 @@ export const Route = createFileRoute("/contact")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "Contact", item: URL },
           ],

@@ -7,7 +7,7 @@ import { SeoDelhiPage } from "@/components/site/SeoDelhiPage";
 import { SD_FAQS } from "@/lib/seo-delhi";
 import { CONTACT } from "@/lib/site";
 
-const URL = "https://acsius-elevate-digital.lovable.app/seo-company-in-delhi";
+const URL = "https://www.acsius.com/seo-company-in-delhi";
 const TITLE = "SEO Company in Delhi | Best SEO Services in Delhi — ACSIUS";
 const DESCRIPTION =
   "ACSIUS is an SEO company in Delhi delivering technical SEO, keyword strategy, content and editorial link building, with reporting on calls and revenue. Free scored audit first.";
@@ -72,7 +72,7 @@ export const Route = createFileRoute("/seo-company-in-delhi")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "SEO Company in Delhi", item: URL },
           ],

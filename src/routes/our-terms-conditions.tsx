@@ -3,7 +3,7 @@ import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { TermsPage } from "@/components/site/TermsPage";
 
-const URL = "https://acsius-elevate-digital.lovable.app/our-terms-conditions";
+const URL = "https://www.acsius.com/our-terms-conditions";
 const TITLE = "Our Terms & Conditions – Know Before You Use | ACSIUS";
 const DESCRIPTION =
   "Read the Terms & Conditions of Service for ACSIUS Technologies Pvt. Ltd. covering use of materials, disclaimers, liability, payments and refund policy.";

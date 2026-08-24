@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { PpcPage } from "@/components/site/PpcPage";
 import { PPC_FAQS } from "@/lib/ppc";
 
-const URL = "https://acsius-elevate-digital.lovable.app/ppc-services-company-india";
+const URL = "https://www.acsius.com/ppc-services-company-india";
 const TITLE = "PPC Company India | PPC Services & Management | ACSIUS";
 const DESCRIPTION =
   "ACSIUS is a PPC company in India offering PPC services and pay per click management — Google Search, Shopping, Display, YouTube, social and remarketing campaigns. Free PPC audit.";
@@ -72,7 +72,7 @@ export const Route = createFileRoute("/ppc-services-company-india")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "PPC Services Company India", item: URL },
           ],

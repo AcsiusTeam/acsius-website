@@ -8,7 +8,7 @@ import { CustomCmsPage } from "@/components/site/CustomCmsPage";
 import { CONTACT } from "@/lib/site";
 import { CMS_FAQS } from "@/lib/custom-cms";
 
-const URL = "https://acsius-elevate-digital.lovable.app/custom-cms-website-design-development";
+const URL = "https://www.acsius.com/custom-cms-website-design-development";
 const TITLE = "Custom CMS Development Services in India | CMS Website Design — ACSIUS";
 const DESCRIPTION =
   "Custom CMS website design and development India by ACSIUS — a custom CMS development company building editor-first WordPress, Laravel and headless content systems. Fixed scope, full ownership, free content audit.";
@@ -73,7 +73,7 @@ export const Route = createFileRoute("/custom-cms-website-design-development")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             {
               "@type": "ListItem",

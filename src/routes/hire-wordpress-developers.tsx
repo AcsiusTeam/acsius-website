@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { WordPressDevPage } from "@/components/site/WordPressDevPage";
 import { WPD_FAQS } from "@/lib/wordpress-dev";
 
-const URL = "https://acsius-elevate-digital.lovable.app/hire-wordpress-developers";
+const URL = "https://www.acsius.com/hire-wordpress-developers";
 const TITLE = "Hire WordPress Developers India | WordPress Experts — ACSIUS";
 const DESCRIPTION =
   "Hire professional WordPress developers from ACSIUS — a WordPress web development company in India. Hire dedicated WordPress developers for themes, plugins, WooCommerce, migrations and support. Profiles in 48 hours.";
@@ -72,7 +72,7 @@ export const Route = createFileRoute("/hire-wordpress-developers")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "Hire WordPress Developers", item: URL },
           ],

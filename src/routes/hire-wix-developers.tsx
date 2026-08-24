@@ -8,7 +8,7 @@ import { WixDevPage } from "@/components/site/WixDevPage";
 import { CONTACT } from "@/lib/site";
 import { WIX_FAQS } from "@/lib/wix-dev";
 
-const URL = "https://acsius-elevate-digital.lovable.app/hire-wix-developers";
+const URL = "https://www.acsius.com/hire-wix-developers";
 const TITLE = "Hire Wix Developer | Hire Dedicated Wix Developers India — ACSIUS";
 const DESCRIPTION =
   "Hire Wix Developer or hire dedicated Wix developers from ACSIUS Technologies India. Hire Expert Wix Developers for Wix Studio, Velo code, eCommerce, bookings, SEO and speed fixes. Profiles in 48 hours.";
@@ -73,7 +73,7 @@ export const Route = createFileRoute("/hire-wix-developers")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "Hire Wix Developers", item: URL },
           ],

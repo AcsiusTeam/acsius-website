@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { ShopifyDevPage } from "@/components/site/ShopifyDevPage";
 import { SHOPIFY_FAQS } from "@/lib/shopify-dev";
 
-const URL = "https://acsius-elevate-digital.lovable.app/hire-shopify-developers";
+const URL = "https://www.acsius.com/hire-shopify-developers";
 const TITLE = "Hire Shopify Developers | Shopify Web Development Company — ACSIUS";
 const DESCRIPTION =
   "Hire dedicated Shopify developers from ACSIUS — a Shopify web development company offering Shopify website development services: custom themes, Hydrogen storefronts, private apps, checkout extensions and migrations. Profiles in 48 hours.";
@@ -72,7 +72,7 @@ export const Route = createFileRoute("/hire-shopify-developers")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "Hire Shopify Developers", item: URL },
           ],

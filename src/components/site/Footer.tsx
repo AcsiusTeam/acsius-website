@@ -1,6 +1,7 @@
 import { MapPin, Phone, Mail } from "lucide-react";
 import { CONTACT, SOCIALS } from "@/lib/site";
-import whiteLogoAsset from "@/assets/acsius-logo-white-01.png.asset.json";
+// import whiteLogoAsset from "@/assets/acsius-logo-white-01.png.asset.json";
+import whiteLogo from "@/assets/images/acsius-logo-white-01.png";
 
 
 const COMPANY_LINKS = [
@@ -34,7 +35,7 @@ export function Footer() {
           {/* Brand column */}
           <div className="sm:col-span-2 lg:col-span-1">
             <img
-              src={whiteLogoAsset.url}
+              src={whiteLogo}
               alt="ACSIUS Technologies"
               width={200}
               height={82}

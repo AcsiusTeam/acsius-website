@@ -7,11 +7,10 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { SeoIndiaPage } from "@/components/site/SeoIndiaPage";
 import { INDIA_FAQS } from "@/lib/seo-india";
 
-const URL = "https://acsius-elevate-digital.lovable.app/seo-services-india";
+const URL = "https://www.acsius.com/seo-services-india";
 const TITLE = "SEO Services in India | Best Organic SEO Company — ACSIUS";
 const DESCRIPTION =
   "Organic SEO services in India by ACSIUS — technical SEO, keyword strategy, content, editorial link building, local and ecommerce SEO plus AI search optimisation. Free audit, transparent reporting.";
-
 
 export const Route = createFileRoute("/seo-services-india")({
   head: () => ({
@@ -73,7 +72,7 @@ export const Route = createFileRoute("/seo-services-india")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "SEO Services in India", item: URL },
           ],

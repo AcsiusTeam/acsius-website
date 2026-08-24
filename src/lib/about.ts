@@ -1,4 +1,5 @@
-import arunSingh from "@/assets/arun-singh-founder.jpg.asset.json";
+// import arunSingh from "@/assets/arun-singh-founder.jpg.asset.json";
+import arunSingh from "@/assets/images/arun-singh-founder.png";
 
 
 export const ABOUT_HERO = {
@@ -35,7 +36,7 @@ export const FOUNDER = {
 export const CORE_TEAM: {
   name: string;
   role: string;
-  image?: { url: string };
+  image?: string ;
 }[] = [
   { name: "Arun Singh", role: "CEO & Founder", image: arunSingh },
   { name: "Chandan Kumar", role: "Director" },

@@ -8,7 +8,7 @@ import { ReactDevPage } from "@/components/site/ReactDevPage";
 import { CONTACT } from "@/lib/site";
 import { RCT_FAQS } from "@/lib/react-dev";
 
-const URL = "https://acsius-elevate-digital.lovable.app/hire-reactjs-developers";
+const URL = "https://www.acsius.com/hire-reactjs-developers";
 const TITLE = "Hire ReactJS Developers India | React JS Development Company — ACSIUS";
 const DESCRIPTION =
   "Hire ReactJS developers from ACSIUS — a React JS development company in India. Hire a dedicated React JS developer or remote React developer for dashboards, SaaS front-ends, Next.js and API work. Profiles in 48 hours.";
@@ -73,7 +73,7 @@ export const Route = createFileRoute("/hire-reactjs-developers")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "Hire ReactJS Developers", item: URL },
           ],

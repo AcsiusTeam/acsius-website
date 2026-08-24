@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
 import { NAV, CONTACT, MENU } from "@/lib/site";
-import blueLogoAsset from "@/assets/acsius-logo-blue.png.asset.json";
-import whiteLogoAsset from "@/assets/acsius-logo-white-01.png.asset.json";
+// import blueLogoAsset from "@/assets/acsius-logo-blue.png.asset.json";
+// import whiteLogoAsset from "@/assets/acsius-logo-white-01.png.asset.json";
+import blueLogo from "@/assets/images/acsius-logo-blue.png";
+import whiteLogo from "@/assets/images/acsius-logo-white-01.png";
 
 
 const SERVICE_GROUPS = MENU.map((c) => ({
@@ -74,7 +76,7 @@ function Logo({ scrolled }: { scrolled: boolean }) {
   return (
     <span className="relative flex h-16 w-auto shrink-0 items-center justify-center sm:h-20 lg:h-24">
       <img
-        src={scrolled ? blueLogoAsset.url : whiteLogoAsset.url}
+        src={scrolled ? blueLogo : whiteLogo}
         alt="ACSIUS Technologies"
         className="h-16 w-auto sm:h-20 lg:h-24"
       />

@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { JsDevPage } from "@/components/site/JsDevPage";
 import { JS_FAQS } from "@/lib/javascript-dev";
 
-const URL = "https://acsius-elevate-digital.lovable.app/hire-javascript-developers";
+const URL = "https://www.acsius.com/hire-javascript-developers";
 const TITLE = "Hire JavaScript Developers India | Full Stack JS Experts — ACSIUS";
 const DESCRIPTION =
   "Hire JavaScript developers from ACSIUS — dedicated JavaScript experts and full stack JavaScript developers for React, Node.js and TypeScript builds. Profiles in 48 hours.";
@@ -72,7 +72,7 @@ export const Route = createFileRoute("/hire-javascript-developers")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "Hire JavaScript Developers", item: URL },
           ],

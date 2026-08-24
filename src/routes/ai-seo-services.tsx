@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { AiSeoPage } from "@/components/site/AiSeoPage";
 import { AISEO_FAQS } from "@/lib/ai-seo";
 
-const URL = "https://acsius-elevate-digital.lovable.app/ai-seo-services";
+const URL = "https://www.acsius.com/ai-seo-services";
 const TITLE = "AI SEO Services India | AI SEO Company | ACSIUS";
 const DESCRIPTION =
   "ACSIUS is an AI SEO company in India offering AI SEO optimization — entity optimisation, schema, answer-first content and citation tracking. Free audit.";
@@ -72,7 +72,7 @@ export const Route = createFileRoute("/ai-seo-services")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "AI SEO Services", item: URL },
           ],

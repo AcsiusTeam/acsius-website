@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Counter, Reveal, usePointerParallax } from "@/components/motion";
 import { CONTACT, AWARDS } from "@/lib/site";
-import founderPhoto from "@/assets/arun-singh-founder.jpg.asset.json";
+// import founderPhoto from "@/assets/arun-singh-founder.jpg.asset.json";
+import founderPhoto from "@/assets/images/arun-singh-founder.png";
 import {
   ABOUT_FAQS,
   ABOUT_HERO,
@@ -55,7 +56,12 @@ function Hero() {
           </Reveal>
           <Reveal delay={280}>
             <div className="mt-9 flex flex-wrap gap-3">
-              <a href="https://wa.me/919891764802" target="_blank" rel="noopener noreferrer" className="btn-cta px-7 py-3.5">
+              <a
+                href="https://wa.me/919891764802"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-cta px-7 py-3.5"
+              >
                 Talk to our team
               </a>
               <a
@@ -159,7 +165,7 @@ function Founder() {
               />
               <div className="relative overflow-hidden rounded-[32px] border border-line bg-navy shadow-lift">
                 <img
-                  src={founderPhoto.url}
+                  src={founderPhoto}
                   alt="Mr. Arun Singh, Founder and CEO of ACSIUS Technologies"
                   width={720}
                   height={860}
@@ -228,7 +234,8 @@ function CoreTeam() {
           </Reveal>
           <Reveal delay={120}>
             <p className="max-w-xs text-sm leading-relaxed text-muted-foreground">
-              A senior, in-house leadership team that stays close to delivery — not a sales layer that disappears after kickoff.
+              A senior, in-house leadership team that stays close to delivery — not a sales layer
+              that disappears after kickoff.
             </p>
           </Reveal>
         </div>
@@ -240,7 +247,7 @@ function CoreTeam() {
                 <div className="relative aspect-[4/5] overflow-hidden bg-navy">
                   {member.image ? (
                     <img
-                      src={member.image.url}
+                      src={member.image}
                       alt={member.name}
                       width={512}
                       height={640}
@@ -270,12 +277,15 @@ function CoreTeam() {
                     className="pointer-events-none absolute inset-0 bg-[linear-gradient(to_top,oklch(0.22_0.05_255/0.72),transparent_55%)]"
                   />
                   <div className="absolute inset-x-0 bottom-0 p-5">
-                    <p className="font-display text-lg font-extrabold text-navy-foreground">{member.name}</p>
-                    <p className="mt-1 text-xs font-black uppercase tracking-[0.12em] text-ember">{member.role}</p>
+                    <p className="font-display text-lg font-extrabold text-navy-foreground">
+                      {member.name}
+                    </p>
+                    <p className="mt-1 text-xs font-black uppercase tracking-[0.12em] text-ember">
+                      {member.role}
+                    </p>
                   </div>
                 </div>
               </div>
-
             </Reveal>
           ))}
 
@@ -290,7 +300,9 @@ function CoreTeam() {
               >
                 +
               </span>
-              <p className="mt-5 font-display text-lg font-extrabold text-foreground">Join our team</p>
+              <p className="mt-5 font-display text-lg font-extrabold text-foreground">
+                Join our team
+              </p>
               <p className="mt-2 max-w-[24ch] text-sm leading-relaxed text-muted-foreground">
                 We are always looking for designers, engineers and growth minds.
               </p>
@@ -544,7 +556,12 @@ function Faqs() {
                 Want to meet the team first? We are happy to introduce the people who would work on
                 your project before you commit to anything.
               </p>
-              <a href="https://wa.me/919891764802" target="_blank" rel="noopener noreferrer" className="btn-cta mt-8 inline-flex px-7 py-3.5">
+              <a
+                href="https://wa.me/919891764802"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-cta mt-8 inline-flex px-7 py-3.5"
+              >
                 Book a discovery call
               </a>
             </Reveal>

@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { GraphicDesignPage } from "@/components/site/GraphicDesignPage";
 import { GD_FAQS } from "@/lib/graphic-design";
 
-const URL = "https://acsius-elevate-digital.lovable.app/graphic-design-services";
+const URL = "https://www.acsius.com/graphic-design-services";
 const TITLE = "Graphic Design Company India | Design Agency | ACSIUS";
 const DESCRIPTION =
   "ACSIUS is a graphic design company in India offering brand identity, marketing creatives, packaging and deck design. Outsource graphic design to a senior team. Get a quote.";
@@ -72,7 +72,7 @@ export const Route = createFileRoute("/graphic-design-services")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "Graphic Design Services", item: URL },
           ],

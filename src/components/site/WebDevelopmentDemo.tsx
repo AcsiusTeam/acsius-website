@@ -7,7 +7,8 @@ type Screen = {
 };
 
 function Bar({ w, tone = "mist" }: { w: string; tone?: "mist" | "primary" | "ember" }) {
-  const bg = tone === "primary" ? "bg-primary/70" : tone === "ember" ? "bg-ember/80" : "bg-foreground/12";
+  const bg =
+    tone === "primary" ? "bg-primary/70" : tone === "ember" ? "bg-ember/80" : "bg-foreground/12";
   return <span className={`block h-2 rounded-full ${bg}`} style={{ width: w }} />;
 }
 
@@ -84,9 +85,14 @@ const SCREENS: Screen[] = [
             { label: "Lighthouse", status: "96", time: "42s", tone: "ok" },
             { label: "Deploy", status: "Live", time: "18s", tone: "ok" },
           ].map((row) => (
-            <div key={row.label} className="flex items-center justify-between rounded-xl border border-white/10 bg-white/5 p-2.5">
+            <div
+              key={row.label}
+              className="flex items-center justify-between rounded-xl border border-white/10 bg-white/5 p-2.5"
+            >
               <span className="text-[10px] font-bold text-navy-foreground/80">{row.label}</span>
-              <span className="rounded bg-ember px-1.5 py-0.5 text-[9px] font-black text-primary-foreground">{row.status}</span>
+              <span className="rounded bg-ember px-1.5 py-0.5 text-[9px] font-black text-primary-foreground">
+                {row.status}
+              </span>
               <span className="text-[9px] text-navy-foreground/50">{row.time}</span>
             </div>
           ))}
@@ -96,7 +102,9 @@ const SCREENS: Screen[] = [
             <span className="text-[10px] font-bold text-navy-foreground/70">Production URL</span>
             <span className="h-2 w-2 rounded-full bg-[oklch(0.86_0.09_160)]" />
           </div>
-          <p className="mt-1 font-mono text-[10px] text-[oklch(0.86_0.09_160)]">https://yoursite.com</p>
+          <p className="mt-1 font-mono text-[10px] text-[oklch(0.86_0.09_160)]">
+            https://yoursite.com
+          </p>
         </div>
       </div>
     ),
@@ -128,7 +136,9 @@ const SCREENS: Screen[] = [
           ].map((m) => (
             <div key={m.k} className="rounded-lg bg-white/5 p-2 text-center">
               <p className="font-display text-sm font-extrabold text-navy-foreground">{m.v}</p>
-              <p className="text-[8px] font-bold uppercase tracking-wider text-navy-foreground/50">{m.k}</p>
+              <p className="text-[8px] font-bold uppercase tracking-wider text-navy-foreground/50">
+                {m.k}
+              </p>
             </div>
           ))}
         </div>
@@ -161,11 +171,17 @@ export function WebDevelopmentDemo() {
           <span className="h-2 w-2 rounded-full bg-white/30" />
           <span className="h-2 w-2 rounded-full bg-white/20" />
           <div className="ml-2 flex flex-1 items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1">
-            <svg viewBox="0 0 16 16" className="h-3 w-3 fill-none stroke-current text-navy-foreground/40" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <svg
+              viewBox="0 0 16 16"
+              className="h-3 w-3 fill-none stroke-current text-navy-foreground/40"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
               <circle cx="7" cy="7" r="6" />
               <path d="M12 12l3 3" />
             </svg>
-            <span className="text-[9px] font-semibold text-navy-foreground/50">acsius-elevate-digital.lovable.app</span>
+            <span className="text-[9px] font-semibold text-navy-foreground/50">www.acsius.com</span>
           </div>
         </div>
 
@@ -184,7 +200,9 @@ export function WebDevelopmentDemo() {
               type="button"
               onClick={() => setIndex(i)}
               className={`flex-1 px-2 py-2.5 text-[10px] font-bold transition-colors ${
-                i === index ? "bg-white/8 text-ember" : "text-navy-foreground/50 hover:bg-white/5 hover:text-navy-foreground/80"
+                i === index
+                  ? "bg-white/8 text-ember"
+                  : "text-navy-foreground/50 hover:bg-white/5 hover:text-navy-foreground/80"
               }`}
             >
               {s.label}

@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { FlutterDevPage } from "@/components/site/FlutterDevPage";
 import { FLT_FAQS } from "@/lib/flutter-dev";
 
-const URL = "https://acsius-elevate-digital.lovable.app/hire-flutter-app-developers";
+const URL = "https://www.acsius.com/hire-flutter-app-developers";
 const TITLE = "Hire Flutter App Developers India | Flutter Development — ACSIUS";
 const DESCRIPTION =
   "Hire Flutter app developers from ACSIUS — a Flutter app development company in India. Hire dedicated Flutter developers for iOS, Android and web apps. Profiles in 48 hours.";
@@ -72,7 +72,7 @@ export const Route = createFileRoute("/hire-flutter-app-developers")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "Hire Flutter App Developers", item: URL },
           ],

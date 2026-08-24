@@ -666,7 +666,7 @@ The final result should be visually memorable, highly interactive, SEO-friendly,
 
 This project was built with [Lovable](https://lovable.dev).
 
-**Live app**: https://acsius-elevate-digital.lovable.app
+**Live app**: https://www.acsius.com
 
 ## Build with Lovable
 

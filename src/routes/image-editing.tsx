@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { ImageEditingPage } from "@/components/site/ImageEditingPage";
 import { IE_FAQS } from "@/lib/image-editing";
 
-const URL = "https://acsius-elevate-digital.lovable.app/image-editing";
+const URL = "https://www.acsius.com/image-editing";
 const TITLE = "Image Editing Services in India | Image Editing Company | ACSIUS";
 const DESCRIPTION =
   "Image editing services India — clipping path, background removal, product retouching and bulk catalogue editing. Image editing company in India with 24h turnaround and free trial edit.";
@@ -72,7 +72,7 @@ export const Route = createFileRoute("/image-editing")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "Image Editing Services", item: URL },
           ],

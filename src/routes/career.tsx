@@ -5,7 +5,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { CareerPage } from "@/components/site/CareerPage";
 import { OPENINGS } from "@/lib/career";
 
-const URL = "https://acsius-elevate-digital.lovable.app/career";
+const URL = "https://www.acsius.com/career";
 const TITLE = "Join ACSIUS Careers | Web, SEO & Digital Experts Hiring";
 const DESCRIPTION =
   "Explore careers at ACSIUS Technologies. Current openings for UI/UX designers, WordPress developers, PHP developers, SEO and business development roles in New Delhi. Apply online.";
@@ -48,7 +48,7 @@ export const Route = createFileRoute("/career")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "Career", item: URL },
           ],

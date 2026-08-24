@@ -7,7 +7,7 @@ import { EcommerceSeoPage } from "@/components/site/EcommerceSeoPage";
 import { ES_FAQS } from "@/lib/ecommerce-seo";
 import { CONTACT } from "@/lib/site";
 
-const URL = "https://acsius-elevate-digital.lovable.app/ecommerce-seo-services";
+const URL = "https://www.acsius.com/ecommerce-seo-services";
 const TITLE = "E-commerce SEO Services | Best eCommerce SEO Company India — ACSIUS";
 const DESCRIPTION =
   "ACSIUS is an eCommerce SEO agency in India growing non-brand organic revenue — catalogue architecture, technical fixes, category and product content, and editorial links. Free store audit first.";
@@ -72,7 +72,7 @@ export const Route = createFileRoute("/ecommerce-seo-services")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "E-commerce SEO Services", item: URL },
           ],

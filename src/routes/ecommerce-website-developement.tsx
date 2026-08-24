@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { EcommerceDevPage } from "@/components/site/EcommerceDevPage";
 import { ECOM_FAQS } from "@/lib/ecommerce-dev";
 
-const URL = "https://acsius-elevate-digital.lovable.app/ecommerce-website-developement";
+const URL = "https://www.acsius.com/ecommerce-website-developement";
 const TITLE = "eCommerce Website Development Services India | ACSIUS";
 const DESCRIPTION =
   "eCommerce website design services in India from ACSIUS — an eCommerce web development company building Shopify, WooCommerce, Magento and headless stores with payments, logistics and CRO built in.";
@@ -72,7 +72,7 @@ export const Route = createFileRoute("/ecommerce-website-developement")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             {
               "@type": "ListItem",

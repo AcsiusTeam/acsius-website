@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { MagentoDevPage } from "@/components/site/MagentoDevPage";
 import { MGT_FAQS } from "@/lib/magento-dev";
 
-const URL = "https://acsius-elevate-digital.lovable.app/hire-magento-developers";
+const URL = "https://www.acsius.com/hire-magento-developers";
 const TITLE = "Hire Magento Developers India | Magento Development — ACSIUS";
 const DESCRIPTION =
   "Hire dedicated Magento developers in India from ACSIUS, a Magento development agency since 2010. Adobe Commerce builds, Magento 1 to 2 migration, B2B stores and speed retainers. Profiles in 48 hours.";
@@ -72,7 +72,7 @@ export const Route = createFileRoute("/hire-magento-developers")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "Hire Magento Developers", item: URL },
           ],

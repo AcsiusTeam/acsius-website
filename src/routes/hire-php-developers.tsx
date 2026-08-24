@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { PhpDevPage } from "@/components/site/PhpDevPage";
 import { PHP_FAQS } from "@/lib/php-dev";
 
-const URL = "https://acsius-elevate-digital.lovable.app/hire-php-developers";
+const URL = "https://www.acsius.com/hire-php-developers";
 const TITLE = "Hire PHP Developers India | PHP Development Services — ACSIUS";
 const DESCRIPTION =
   "Hire PHP developers from ACSIUS — a PHP development company in India. Hire dedicated PHP developers for custom web apps, CMS modules, APIs, e-commerce backends and legacy rescue. Profiles in 48 hours.";
@@ -72,7 +72,7 @@ export const Route = createFileRoute("/hire-php-developers")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "Hire PHP Developers", item: URL },
           ],

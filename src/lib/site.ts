@@ -484,8 +484,44 @@ export const PROCESS = [
 
 import caseMagicTouch from "@/assets/case-magictouch.png";
 import caseElburgon from "@/assets/case-elburgon.png";
-import caseBeautySups from "@/assets/case-beautysups.png.asset.json";
+// import caseBeautySups from "@/assets/case-beautysups.png.asset.json";
+import caseBeautySups from "@/assets/images/case-beautysups.png";
 import casePlaceholder from "@/assets/case-placeholder.png";
+import simbaAdventure from "@/assets/images/simbaadventures.png";
+import mhmTuning from "@/assets/images/mhmtuning.png";
+import grandTourSports from "@/assets/images/grandtoursports.png";
+import bougroug from "@/assets/images/bougroug.png";
+import flywing from "@/assets/images/flywing.png";
+import loveskinfoodskincare from "@/assets/images/loveskinfoodskincare.png";
+import acraapluscpa from "@/assets/images/acraapluscpa.png";
+import nldisplay from "@/assets/images/nldisplays.png";
+import disarReti from "@/assets/images/disar-reti.png";
+import evolveNextgen from "@/assets/images/evolve-nextgen-evolve.png";
+import theaird from "@/assets/images/theaird.png";
+import redwoodcityfloristandballoons from "@/assets/images/redwoodcityfloristandballoons.png";
+import sweettreatpharmacy from "@/assets/images/sweettreatpharmacy-.png";
+import langhauswartung from "@/assets/images/langhauswartung.png";
+import jkbima from "@/assets/images/jkbima.png";
+import eliteecus from "@/assets/images/eliteecus.png";
+import studiobound from "@/assets/images/studiobound.png";
+import djFischerSpezial from "@/assets/images/dj-fischer-spezial.png";
+import greenroot from "@/assets/images/greenroot.png";
+import samscare from "@/assets/images/samscare.png";
+import lavyhair from "@/assets/images/lavyhair.png";
+import dyhair777 from "@/assets/images/dyhair777.png";
+import curls from "@/assets/images/curls.png";
+import japandeluxetours from "@/assets/images/japandeluxetours.png";
+import clayesmore from "@/assets/images/clayesmore.png";
+import thegazpacho from "@/assets/images/thegazpacho.png";
+import lititon from "@/assets/images/lititon.png";
+
+
+
+
+
+
+
+
 
 export type CaseStudy = {
   client: string;
@@ -559,7 +595,7 @@ export const CASES: CaseStudy[] = [
       "Klarna, Stripe and additional payment gateways integrated",
     ],
     status: "Live · Rebuilt on Shopify",
-    image: caseBeautySups.url,
+    image: caseBeautySups,
     accent: "ember",
   },
   {
@@ -576,7 +612,7 @@ export const CASES: CaseStudy[] = [
       "Product pages, collections and enquiry flow rebuilt",
     ],
     status: "Live · Rebuilt on WIX",
-    image: casePlaceholder,
+    image: lititon,
     accent: "brand",
     stats: [
       { value: "60+", label: "Mobile PageSpeed", detail: "Pagespeed.web.dev" },
@@ -599,7 +635,7 @@ export const CASES: CaseStudy[] = [
       "Faster page loads and mobile-first responsive layout",
     ],
     status: "Live · Rebuilt in PHP + Vue.js",
-    image: casePlaceholder,
+    image: simbaAdventure,
     accent: "navy",
   },
   {
@@ -616,7 +652,7 @@ export const CASES: CaseStudy[] = [
       "Payment, shipping and product filters reconfigured",
     ],
     status: "Live · PrestaShop 9.1.0",
-    image: casePlaceholder,
+    image: mhmTuning,
     accent: "ember",
   },
   {
@@ -633,7 +669,7 @@ export const CASES: CaseStudy[] = [
       "Checkout and account area optimised for retention",
     ],
     status: "Live · Replatformed to Shopify",
-    image: casePlaceholder,
+    image: grandTourSports,
     accent: "brand",
   },
   {
@@ -650,7 +686,7 @@ export const CASES: CaseStudy[] = [
       "Product pages and checkout localised for the market",
     ],
     status: "Live · Shopify B2C Store",
-    image: casePlaceholder,
+    image: bougroug,
     accent: "ember",
   },
   {
@@ -667,7 +703,7 @@ export const CASES: CaseStudy[] = [
       "Lead management for global B2B buyers",
     ],
     status: "Live · Laravel Application",
-    image: casePlaceholder,
+    image: flywing,
     accent: "navy",
   },
   {
@@ -684,7 +720,7 @@ export const CASES: CaseStudy[] = [
       "Mobile-first checkout experience",
     ],
     status: "Live · Shopify Theme Update",
-    image: casePlaceholder,
+    image: loveskinfoodskincare,
     accent: "brand",
   },
   {
@@ -701,7 +737,7 @@ export const CASES: CaseStudy[] = [
       "Enquiry forms and contact flows configured",
     ],
     status: "Live · WordPress Informative Site",
-    image: casePlaceholder,
+    image: acraapluscpa,
     accent: "navy",
   },
   {
@@ -718,7 +754,7 @@ export const CASES: CaseStudy[] = [
       "Technical SEO, schema and page speed improvements",
     ],
     status: "Live · SEO ongoing",
-    image: casePlaceholder,
+    image: nldisplay,
     accent: "brand",
     stats: [
       { value: "+144%", label: "Organic sessions", detail: "6 months" },
@@ -742,7 +778,7 @@ export const CASES: CaseStudy[] = [
       "Enquiry and contact flows localised",
     ],
     status: "Live · Rebuilt on WordPress",
-    image: casePlaceholder,
+    image: disarReti,
     accent: "ember",
   },
   {
@@ -759,7 +795,7 @@ export const CASES: CaseStudy[] = [
       "Admin dashboard for event and attendee management",
     ],
     status: "Live · WordPress Events Site",
-    image: casePlaceholder,
+    image: evolveNextgen,
     accent: "navy",
   },
   {
@@ -776,7 +812,7 @@ export const CASES: CaseStudy[] = [
       "Responsive layouts for scientific and clinical audiences",
     ],
     status: "Live · Built on Webflow",
-    image: casePlaceholder,
+    image: theaird,
     accent: "brand",
   },
   {
@@ -793,7 +829,7 @@ export const CASES: CaseStudy[] = [
       "Product catalogue for flowers, balloons and arrangements",
     ],
     status: "Live · Shopify Local Store",
-    image: casePlaceholder,
+    image: redwoodcityfloristandballoons,
     accent: "ember",
   },
   {
@@ -810,7 +846,7 @@ export const CASES: CaseStudy[] = [
       "Mobile-first design for local search traffic",
     ],
     status: "Live · WordPress Landing Page",
-    image: casePlaceholder,
+    image: sweettreatpharmacy,
     accent: "brand",
   },
   {
@@ -827,7 +863,7 @@ export const CASES: CaseStudy[] = [
       "Prepared for multilingual expansion",
     ],
     status: "Live · WordPress Landing Page",
-    image: casePlaceholder,
+    image: langhauswartung,
     accent: "navy",
   },
   {
@@ -844,7 +880,7 @@ export const CASES: CaseStudy[] = [
       "Editor-friendly CMS with training provided",
     ],
     status: "Live · Migrated to WordPress",
-    image: casePlaceholder,
+    image: jkbima,
     accent: "ember",
   },
   {
@@ -861,7 +897,7 @@ export const CASES: CaseStudy[] = [
       "Technical SEO, schema and local search setup",
     ],
     status: "Live · SEO ongoing",
-    image: casePlaceholder,
+    image: eliteecus,
     accent: "brand",
     stats: [
       { value: "+127%", label: "Organic sessions", detail: "6 months" },
@@ -885,7 +921,7 @@ export const CASES: CaseStudy[] = [
       "Enquiry forms and contact flows configured",
     ],
     status: "Live · WordPress Events Site",
-    image: casePlaceholder,
+    image: studiobound,
     accent: "brand",
   },
   {
@@ -902,7 +938,7 @@ export const CASES: CaseStudy[] = [
       "Booking enquiry and contact flows configured",
     ],
     status: "Live · Rebuilt on WIX",
-    image: casePlaceholder,
+    image: djFischerSpezial,
     accent: "navy",
   },
   {
@@ -919,7 +955,7 @@ export const CASES: CaseStudy[] = [
       "Wholesale pricing and direct consumer purchase flow",
     ],
     status: "Live · Shopify B2B + B2C",
-    image: casePlaceholder,
+    image: greenroot,
     accent: "ember",
   },
   {
@@ -936,7 +972,7 @@ export const CASES: CaseStudy[] = [
       "Enquiry and contact flows configured",
     ],
     status: "Live · Rebuilt on WIX",
-    image: casePlaceholder,
+    image: samscare,
     accent: "brand",
   },
   {
@@ -953,7 +989,7 @@ export const CASES: CaseStudy[] = [
       "Technical SEO, schema and backlink profile growth",
     ],
     status: "Live · SEO ongoing",
-    image: casePlaceholder,
+    image: lavyhair,
     accent: "ember",
     stats: [
       { value: "+215%", label: "Organic sessions", detail: "6 months" },
@@ -977,7 +1013,7 @@ export const CASES: CaseStudy[] = [
       "Technical SEO, internal linking and authority building",
     ],
     status: "Live · SEO ongoing",
-    image: casePlaceholder,
+    image: dyhair777,
     accent: "brand",
     stats: [
       { value: "+198%", label: "Organic sessions", detail: "6 months" },
@@ -1001,7 +1037,7 @@ export const CASES: CaseStudy[] = [
       "Technical SEO, schema and site speed improvements",
     ],
     status: "Live · SEO ongoing",
-    image: casePlaceholder,
+    image: curls,
     accent: "navy",
     stats: [
       { value: "+187%", label: "Organic sessions", detail: "6 months" },
@@ -1025,7 +1061,7 @@ export const CASES: CaseStudy[] = [
       "Local SEO and Google Business Profile enhancements",
     ],
     status: "Live · SEO ongoing",
-    image: casePlaceholder,
+    image: japandeluxetours,
     accent: "ember",
     stats: [
       { value: "+245%", label: "Organic sessions", detail: "6 months" },
@@ -1049,7 +1085,7 @@ export const CASES: CaseStudy[] = [
       "Content strategy for parents and prospective students",
     ],
     status: "Live · SEO ongoing",
-    image: casePlaceholder,
+    image: clayesmore,
     accent: "brand",
     stats: [
       { value: "+156%", label: "Organic sessions", detail: "6 months" },
@@ -1073,7 +1109,7 @@ export const CASES: CaseStudy[] = [
       "Mobile-first design with optimised messaging hierarchy",
     ],
     status: "Live · WordPress Landing Page",
-    image: casePlaceholder,
+    image: thegazpacho,
     accent: "ember",
   },
 ];

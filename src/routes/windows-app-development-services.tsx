@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { WindowsAppPage } from "@/components/site/WindowsAppPage";
 import { WIN_FAQS } from "@/lib/windows-app";
 
-const URL = "https://acsius-elevate-digital.lovable.app/windows-app-development-services";
+const URL = "https://www.acsius.com/windows-app-development-services";
 const TITLE = "Windows App Development Services | Windows App Developers";
 const DESCRIPTION =
   "ACSIUS is a Windows app development company in India. Hire Windows app developers for WinUI 3, .NET and WPF desktop apps with backend, QA, MSIX packaging and Microsoft Store launch.";
@@ -72,9 +72,14 @@ export const Route = createFileRoute("/windows-app-development-services")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
-            { "@type": "ListItem", position: 2, name: "Windows App Development Services", item: URL },
+            {
+              "@type": "ListItem",
+              position: 2,
+              name: "Windows App Development Services",
+              item: URL,
+            },
           ],
         }),
       },

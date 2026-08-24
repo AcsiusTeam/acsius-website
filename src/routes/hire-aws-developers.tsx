@@ -7,7 +7,7 @@ import { Newsletter } from "@/components/site/Newsletter";
 import { AwsDevPage } from "@/components/site/AwsDevPage";
 import { AWS_FAQS } from "@/lib/aws-dev";
 
-const URL = "https://acsius-elevate-digital.lovable.app/hire-aws-developers";
+const URL = "https://www.acsius.com/hire-aws-developers";
 const TITLE = "Hire AWS Developers India | AWS Consultants & Certified Devs — ACSIUS";
 const DESCRIPTION =
   "Hire AWS developers and AWS consultants in India from ACSIUS — certified engineers for serverless apps, ECS/EKS, migrations, DevOps and cost reviews. Profiles in 48 hours.";
@@ -72,7 +72,7 @@ export const Route = createFileRoute("/hire-aws-developers")({
               "@type": "ListItem",
               position: 1,
               name: "Home",
-              item: "https://acsius-elevate-digital.lovable.app/",
+              item: "https://www.acsius.com/",
             },
             { "@type": "ListItem", position: 2, name: "Hire AWS Developers", item: URL },
           ],
