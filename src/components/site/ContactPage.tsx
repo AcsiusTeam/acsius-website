@@ -3,6 +3,10 @@ import { Reveal, Counter } from "@/components/motion";
 import { CONTACT, METRICS } from "@/lib/site";
 import { submitContactForm } from "@/lib/contact-form";
 
+const [sent, setSent] = useState(false);
+const [sending, setSending] = useState(false);
+const [error, setError] = useState("");
+
 
 const CHANNELS = [
   {
@@ -221,6 +225,8 @@ function Channels() {
 /* ---------- Map + Form ---------- */
 function MapAndForm() {
   const [sent, setSent] = useState(false);
+  const [sending, setSending] = useState(false);
+  const [error, setError] = useState("");
 
   return (
     <section id="form" className="bg-mist py-24 lg:py-32">
@@ -262,11 +268,32 @@ function MapAndForm() {
 
           <Reveal delay={120}>
             <form
-              onSubmit={(event) => {
+              /* onSubmit={(event) => {
                 event.preventDefault();
                 const form = event.currentTarget;
                 setSent(true);
                 void submitContactForm(form);
+              }} */
+              onSubmit={async (event) => {
+                event.preventDefault();
+                const form = event.currentTarget;
+                setSending(true);
+                setSent(false);
+                setError("");
+                try {
+                  await submitContactForm(form);
+                  setSent(true);
+                  form.reset();
+                } catch (error) {
+                  console.error("Contact form submission failed:", error);
+                  setError(
+                    error instanceof Error
+                      ? error.message
+                      : "Unable to send your enquiry. Please try again.",
+                  );
+                } finally {
+                  setSending(false);
+                }
               }}
 
               className="rounded-[32px] border border-line bg-card p-7 shadow-lift lg:p-9"
@@ -332,13 +359,19 @@ function MapAndForm() {
               </div>
 
               <button type="submit" className="btn-cta mt-7 w-full px-8 py-4 text-base">
-                {sent ? "Thank you — we will be in touch" : "Send enquiry"}
+                {sending
+                  ? "Sending..."
+                  : sent
+                    ? "Thank you - we'll be in touch"
+                    : "Send enquiry"}
               </button>
 
               <p aria-live="polite" className="mt-4 text-center text-xs text-muted-foreground">
-                {sent
-                  ? "Your enquiry has been captured. Expect a reply within 4 business hours."
-                  : "Response time promise: within 4 business hours, Mon–Sat."}
+                {error
+                  ? error
+                  : sent
+                    ? "Your enquiry has been sent. Expect a reply within 4 business hours."
+                    : "Response time promise: within 4 business hours, Mon-Sat."}
               </p>
             </form>
           </Reveal>
