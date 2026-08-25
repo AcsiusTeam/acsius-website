@@ -3,6 +3,7 @@ import { MapPin } from "lucide-react";
 import { Reveal } from "@/components/motion";
 import { APPLY_FIELDS, CAREER_INTRO, OPENINGS, type Opening } from "@/lib/career";
 import { CONTACT } from "@/lib/site";
+import { submitApplicationForm } from "@/lib/career-form";
 
 /* ---------------- Hero ---------------- */
 function Hero() {
@@ -187,6 +188,8 @@ function Openings({ onApply }: { onApply: (role: string) => void }) {
 /* ---------------- Apply form ---------------- */
 function ApplyForm({ role, setRole }: { role: string; setRole: (r: string) => void }) {
   const [sent, setSent] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState("");
 
   return (
     <section id="apply" className="bg-mist py-20 lg:py-28">
@@ -261,9 +264,31 @@ function ApplyForm({ role, setRole }: { role: string; setRole: (r: string) => vo
 
         <Reveal delay={120}>
           <form
-            onSubmit={(e) => {
-              e.preventDefault();
-              setSent(true);
+            encType="multipart/form-data"
+            onSubmit={async (event) => {
+              event.preventDefault();
+
+              const form = event.currentTarget;
+
+              setError("");
+              setSubmitting(true);
+
+              try {
+                await submitApplicationForm(form);
+
+                setSent(true);
+                form.reset();
+              } catch (error) {
+                console.error(error);
+
+                setError(
+                  error instanceof Error
+                    ? error.message
+                    : "Something went wrong. Please try again.",
+                );
+              } finally {
+                setSubmitting(false);
+              }
             }}
             className="rounded-[32px] border border-line bg-card p-7 shadow-lift lg:p-9"
           >
@@ -314,14 +339,27 @@ function ApplyForm({ role, setRole }: { role: string; setRole: (r: string) => vo
               </label>
             </div>
 
-            <button type="submit" className="btn-cta mt-8 w-full px-8 py-4 text-base">
-              Apply Now!
+            <button type="submit"  disabled={submitting || sent} className="btn-cta mt-8 w-full px-8 py-4 text-base">
+              {submitting
+                ? "Applying..."
+                : sent
+                ? "Application Received.": 
+                  "Apply Now!"
+                }
+              
             </button>
+            {error && (
+              <p className="mt-4 text-center text-sm font-semibold text-error text-red-600">
+                {error}
+              </p>
+            )}
+
             {sent && (
               <p className="mt-4 text-center text-sm font-semibold text-primary">
                 Thanks — your application has been noted. We'll get back to you shortly.
               </p>
             )}
+
           </form>
         </Reveal>
       </div>

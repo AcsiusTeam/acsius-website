@@ -1,72 +1,46 @@
-/**
- * Career application form helper.
- *
- * Sends the application to the backend where Nodemailer handles
- * SMTP delivery and attaches the applicant's resume.
- */
+import { submitApplicationServer } from "@/lib/mailer/application";
 
-export const CAREER_FORM_RECIPIENT = "info@acsius.com";
-
-export type CareerFormValues = {
-  role: string;
-  name: string;
-  email: string;
-  phone: string;
-  resume: File | null;
+export type ApplicationFormValues = {
+    role: string;
+    name: string;
+    email: string;
+    phone: string;
+    designation: string;
+    currentCtc: string;
+    expectedCtc: string;
+    noticePeriod: string;
+    resume: File | null;
 };
 
-export function readCareerForm(form: HTMLFormElement): CareerFormValues {
-  const data = new FormData(form);
+export function readApplicationForm(
+    form: HTMLFormElement,
+): ApplicationFormValues {
+    const data = new FormData(form);
 
-  const get = (key: string) => String(data.get(key) ?? "").trim();
+    const file = data.get("resume");
 
-  const resumeValue = data.get("resume");
-
-  return {
-    role: get("role"),
-    name: get("name"),
-    email: get("email"),
-    phone: get("phone"),
-    resume: resumeValue instanceof File && resumeValue.size > 0
-      ? resumeValue
-      : null,
-  };
+    return {
+        role: String(data.get("role") ?? "").trim(),
+        name: String(data.get("name") ?? "").trim(),
+        email: String(data.get("email") ?? "").trim(),
+        phone: String(data.get("phone") ?? "").trim(),
+        designation: String(data.get("designation") ?? "").trim(),
+        currentCtc: String(data.get("currentCtc") ?? "").trim(),
+        expectedCtc: String(data.get("expectedCtc") ?? "").trim(),
+        noticePeriod: String(data.get("noticePeriod") ?? "").trim(),
+        resume:
+            file instanceof File && file.size > 0
+                ? file
+                : null,
+    };
 }
 
-export function buildCareerSubject(values: CareerFormValues) {
-  return `Job Application - ${values.name || "New Applicant"} - ${
-    values.role || "General Application"
-  }`;
-}
+export async function submitApplicationForm(
+    form: HTMLFormElement,
+) {
+    const formData = new FormData(form);
 
-export async function submitCareerForm(form: HTMLFormElement) {
-  const values = readCareerForm(form);
-
-  const formData = new FormData(form);
-
-  const response = await fetch("/api/career", {
-    method: "POST",
-    body: formData,
-  });
-
-  if (!response.ok) {
-    let message = "Unable to submit application.";
-
-    try {
-      const result = await response.json();
-
-      if (result?.message) {
-        message = result.message;
-      }
-    } catch {
-      // Ignore JSON parsing errors.
-    }
-
-    throw new Error(message);
-  }
-
-  return {
-    values,
-    subject: buildCareerSubject(values),
-  };
+    return submitApplicationServer({
+        data: formData,
+    });
 }
