@@ -3,11 +3,6 @@ import { Reveal, Counter } from "@/components/motion";
 import { CONTACT, METRICS } from "@/lib/site";
 import { submitContactForm } from "@/lib/contact-form";
 
-const [sent, setSent] = useState(false);
-const [sending, setSending] = useState(false);
-const [error, setError] = useState("");
-
-
 const CHANNELS = [
   {
     id: "location",
@@ -268,12 +263,6 @@ function MapAndForm() {
 
           <Reveal delay={120}>
             <form
-              /* onSubmit={(event) => {
-                event.preventDefault();
-                const form = event.currentTarget;
-                setSent(true);
-                void submitContactForm(form);
-              }} */
               onSubmit={async (event) => {
                 event.preventDefault();
                 const form = event.currentTarget;
