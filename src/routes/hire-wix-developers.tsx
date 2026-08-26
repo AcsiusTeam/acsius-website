@@ -9,9 +9,9 @@ import { CONTACT } from "@/lib/site";
 import { WIX_FAQS } from "@/lib/wix-dev";
 
 const URL = "https://www.acsius.com/hire-wix-developers";
-const TITLE = "Hire Wix Developer | Hire Dedicated Wix Developers India — ACSIUS";
+const TITLE = "Hire Dedicated Wix Developers, Hire Wix Developer";
 const DESCRIPTION =
-  "Hire Wix Developer or hire dedicated Wix developers from ACSIUS Technologies India. Hire Expert Wix Developers for Wix Studio, Velo code, eCommerce, bookings, SEO and speed fixes. Profiles in 48 hours.";
+  "Hire Expert Wix Developers from ACSIUS for custom, professional Wix website development. Get a free consultation today!";
 
 export const Route = createFileRoute("/hire-wix-developers")({
   head: () => ({

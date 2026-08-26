@@ -8,9 +8,9 @@ import { SeoIndiaPage } from "@/components/site/SeoIndiaPage";
 import { INDIA_FAQS } from "@/lib/seo-india";
 
 const URL = "https://www.acsius.com/seo-services-india";
-const TITLE = "SEO Services in India | Best Organic SEO Company — ACSIUS";
+const TITLE = "Best SEO Services India, Organic SEO Services India";
 const DESCRIPTION =
-  "Organic SEO services in India by ACSIUS — technical SEO, keyword strategy, content, editorial link building, local and ecommerce SEO plus AI search optimisation. Free audit, transparent reporting.";
+  "Grow your business with ACSIUS's Best SEO Services in India. Trusted Organic SEO Services for long-term, sustainable growth. Free audit today!";
 
 export const Route = createFileRoute("/seo-services-india")({
   head: () => ({

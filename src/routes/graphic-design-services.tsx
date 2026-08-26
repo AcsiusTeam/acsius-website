@@ -8,9 +8,9 @@ import { GraphicDesignPage } from "@/components/site/GraphicDesignPage";
 import { GD_FAQS } from "@/lib/graphic-design";
 
 const URL = "https://www.acsius.com/graphic-design-services";
-const TITLE = "Graphic Design Company India | Design Agency | ACSIUS";
+const TITLE = "Graphic Design Services India, Graphic Design Agency";
 const DESCRIPTION =
-  "ACSIUS is a graphic design company in India offering brand identity, marketing creatives, packaging and deck design. Outsource graphic design to a senior team. Get a quote.";
+  "ACSIUS – Leading Graphic Design Agency in India offering custom logos, branding & Graphic Design Services. Get a free consultation today!";
 
 export const Route = createFileRoute("/graphic-design-services")({
   head: () => ({

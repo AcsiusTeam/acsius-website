@@ -8,9 +8,9 @@ import { IosAppPage } from "@/components/site/IosAppPage";
 import { IOS_FAQS } from "@/lib/ios-app";
 
 const URL = "https://www.acsius.com/ios-app-development-company";
-const TITLE = "iOS App Development Company | iOS App Developers India";
+const TITLE = "iOS App Development Services, iOS App Developers India";
 const DESCRIPTION =
-  "ACSIUS is an iOS app development company in India. Hire iOS app developers for Swift & SwiftUI iPhone, iPad and Watch apps with backend, QA and App Store launch. Free consultation.";
+  "Build innovative apps with ACSIUS, a trusted iOS App Development Company. Reliable iOS App Development Services for startups & enterprises. Contact us!";
 
 export const Route = createFileRoute("/ios-app-development-company")({
   head: () => ({

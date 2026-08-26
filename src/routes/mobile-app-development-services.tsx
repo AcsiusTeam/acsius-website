@@ -8,9 +8,9 @@ import { MobileAppPage } from "@/components/site/MobileAppPage";
 import { MAD_FAQS } from "@/lib/mobile-app";
 
 const URL = "https://www.acsius.com/mobile-app-development-services";
-const TITLE = "Mobile App Development Company in India | ACSIUS";
+const TITLE = "Top Mobile App Development Company India, Mobile App Development Services";
 const DESCRIPTION =
-  "Mobile app development services from ACSIUS — a top mobile app development company in India. iOS, Android, React Native app development with backend, QA and store launch. Free consultation.";
+  "ACSIUS – Top Mobile App Development Company with 100+ apps delivered. Trusted Mobile App Development Services for startups & enterprises. Free quote!";
 
 export const Route = createFileRoute("/mobile-app-development-services")({
   head: () => ({

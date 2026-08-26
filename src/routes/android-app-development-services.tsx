@@ -8,9 +8,9 @@ import { AndroidAppPage } from "@/components/site/AndroidAppPage";
 import { AND_FAQS } from "@/lib/android-app";
 
 const URL = "https://www.acsius.com/android-app-development-services";
-const TITLE = "Android App Development Services | Android Developers India";
+const TITLE = "Android Development Company, Android App Developer near Me";
 const DESCRIPTION =
-  "ACSIUS is an Android development company in India. Hire Android app developers for native Kotlin, Jetpack Compose, Flutter and React Native apps with backend, QA and Google Play launch.";
+  "Looking for an Android App Developer near you? ACSIUS, a top Android Development Company, delivers custom Android App Development Services. Contact us!";
 
 export const Route = createFileRoute("/android-app-development-services")({
   head: () => ({

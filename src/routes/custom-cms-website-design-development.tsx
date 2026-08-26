@@ -9,9 +9,9 @@ import { CONTACT } from "@/lib/site";
 import { CMS_FAQS } from "@/lib/custom-cms";
 
 const URL = "https://www.acsius.com/custom-cms-website-design-development";
-const TITLE = "Custom CMS Development Services in India | CMS Website Design — ACSIUS";
+const TITLE = "Custom CMS Development Company India, Custom CMS Website Design India";
 const DESCRIPTION =
-  "Custom CMS website design and development India by ACSIUS — a custom CMS development company building editor-first WordPress, Laravel and headless content systems. Fixed scope, full ownership, free content audit.";
+  "ACSIUS – Leading CMS Website Design Agency in India offering Custom CMS Development Services tailored to your business. Get a free consultation!";
 
 export const Route = createFileRoute("/custom-cms-website-design-development")({
   head: () => ({

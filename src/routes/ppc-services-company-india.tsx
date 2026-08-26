@@ -8,9 +8,9 @@ import { PpcPage } from "@/components/site/PpcPage";
 import { PPC_FAQS } from "@/lib/ppc";
 
 const URL = "https://www.acsius.com/ppc-services-company-india";
-const TITLE = "PPC Company India | PPC Services & Management | ACSIUS";
+const TITLE = "PPC Services India, Pay per Click Management India";
 const DESCRIPTION =
-  "ACSIUS is a PPC company in India offering PPC services and pay per click management — Google Search, Shopping, Display, YouTube, social and remarketing campaigns. Free PPC audit.";
+  "ACSIUS is a leading PPC Company in India providing expert PPC Services & Pay per Click Management to maximize leads. Free consultation!";
 
 export const Route = createFileRoute("/ppc-services-company-india")({
   head: () => ({

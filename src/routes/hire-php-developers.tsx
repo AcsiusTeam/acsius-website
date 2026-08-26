@@ -8,9 +8,9 @@ import { PhpDevPage } from "@/components/site/PhpDevPage";
 import { PHP_FAQS } from "@/lib/php-dev";
 
 const URL = "https://www.acsius.com/hire-php-developers";
-const TITLE = "Hire PHP Developers India | PHP Development Services — ACSIUS";
+const TITLE = "PHP Development Company India, Hire PHP Developers India";
 const DESCRIPTION =
-  "Hire PHP developers from ACSIUS — a PHP development company in India. Hire dedicated PHP developers for custom web apps, CMS modules, APIs, e-commerce backends and legacy rescue. Profiles in 48 hours.";
+  "Hire Dedicated PHP Developers from ACSIUS, a trusted PHP Development Company in India, for secure & scalable web apps. Get a free quote today!";
 
 export const Route = createFileRoute("/hire-php-developers")({
   head: () => ({

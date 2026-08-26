@@ -8,9 +8,9 @@ import { EcommerceDevPage } from "@/components/site/EcommerceDevPage";
 import { ECOM_FAQS } from "@/lib/ecommerce-dev";
 
 const URL = "https://www.acsius.com/ecommerce-website-developement";
-const TITLE = "eCommerce Website Development Services India | ACSIUS";
+const TITLE = "eCommerce Web Development Company India, ecommerce Website Design Services";
 const DESCRIPTION =
-  "eCommerce website design services in India from ACSIUS — an eCommerce web development company building Shopify, WooCommerce, Magento and headless stores with payments, logistics and CRO built in.";
+  "Grow your online store with ACSIUS, a trusted eCommerce Web Development Company in India. Custom eCommerce Website Design Services. Free quote!";
 
 export const Route = createFileRoute("/ecommerce-website-developement")({
   head: () => ({

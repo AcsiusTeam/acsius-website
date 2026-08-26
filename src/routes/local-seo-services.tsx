@@ -8,9 +8,9 @@ import { LocalSeoPage } from "@/components/site/LocalSeoPage";
 import { LOCAL_FAQS } from "@/lib/local-seo";
 
 const URL = "https://www.acsius.com/local-seo-services";
-const TITLE = "Local SEO Services India | Local SEO Company — ACSIUS";
+const TITLE = "Local SEO Services India, Best Local Search Engine in India";
 const DESCRIPTION =
-  "Local SEO services in India by ACSIUS — Google Business Profile optimisation, locality landing pages, citations, reviews and grid-rank tracking that win map packs and near-me searches. Free local audit.";
+  "ACSIUS – Best Local SEO Company in India helping businesses rank on Google Maps & local search. Trusted Local SEO Services India-wide. Free quote!";
 
 export const Route = createFileRoute("/local-seo-services")({
   head: () => ({

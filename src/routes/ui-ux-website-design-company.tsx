@@ -8,9 +8,9 @@ import { UiUxDesignPage } from "@/components/site/UiUxDesignPage";
 import { UIUX_FAQS } from "@/lib/ui-ux";
 
 const URL = "https://www.acsius.com/ui-ux-website-design-company";
-const TITLE = "UI/UX Website Design Company India | UI/UX Design Services — ACSIUS";
+const TITLE = "UI/UX Website Design Company India, UI/UX Website Design Services India";
 const DESCRIPTION =
-  "ACSIUS is a UI/UX website design company in India offering UI/UX website design services — research, wireframes, high-fidelity UI, prototypes and design systems. First concept in 72 hours.";
+  "ACSIUS offers professional UI/UX Website Design Services in India, helping brands create engaging, easy-to-navigate websites that drive results.";
 
 export const Route = createFileRoute("/ui-ux-website-design-company")({
   head: () => ({

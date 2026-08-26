@@ -8,9 +8,9 @@ import { LaravelDevPage } from "@/components/site/LaravelDevPage";
 import { LRV_FAQS } from "@/lib/laravel-dev";
 
 const URL = "https://www.acsius.com/hire-laravel-developers";
-const TITLE = "Hire Laravel Developers India | Laravel Development — ACSIUS";
+const TITLE = "Hire Dedicated Laravel Developer, Laravel Website Development Services";
 const DESCRIPTION =
-  "Hire Laravel developers from ACSIUS — a Laravel web development company in India. Hire dedicated Laravel developers for APIs, SaaS, admin panels and Laravel website development services. Profiles in 48 hours.";
+  "Hire a Dedicated Laravel Developer from ACSIUS for secure, scalable Laravel Website Development Services. Get a free consultation today!";
 
 export const Route = createFileRoute("/hire-laravel-developers")({
   head: () => ({

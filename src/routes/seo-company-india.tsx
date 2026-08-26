@@ -8,9 +8,9 @@ import { SeoCompanyPage } from "@/components/site/SeoCompanyPage";
 import { SC_FAQS } from "@/lib/seo-company";
 
 const URL = "https://www.acsius.com/seo-company-india";
-const TITLE = "SEO Company India | Best SEO Agency in India — ACSIUS";
+const TITLE = "Best SEO Company India, SEO Agency India, SEO India";
 const DESCRIPTION =
-  "ACSIUS is an SEO agency in India delivering technical SEO, keyword strategy, content and editorial link building with reporting on leads and revenue. Free scored audit before you commit.";
+  "Ready to rank #1 on Google? ACSIUS, India's Best SEO Company & SEO Agency, helps you grow fast. Book a free strategy call today!";
 
 export const Route = createFileRoute("/seo-company-india")({
   head: () => ({

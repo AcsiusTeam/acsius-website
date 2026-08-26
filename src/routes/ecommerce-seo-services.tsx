@@ -8,9 +8,9 @@ import { ES_FAQS } from "@/lib/ecommerce-seo";
 import { CONTACT } from "@/lib/site";
 
 const URL = "https://www.acsius.com/ecommerce-seo-services";
-const TITLE = "E-commerce SEO Services | Best eCommerce SEO Company India — ACSIUS";
+const TITLE = "Best eCommerce SEO Company India, eCommerce SEO Delhi";
 const DESCRIPTION =
-  "ACSIUS is an eCommerce SEO agency in India growing non-brand organic revenue — catalogue architecture, technical fixes, category and product content, and editorial links. Free store audit first.";
+  "Best eCommerce SEO Company in India offering result-driven strategies as a trusted eCommerce SEO Agency. Get a free consultation today!";
 
 export const Route = createFileRoute("/ecommerce-seo-services")({
   head: () => ({

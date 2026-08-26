@@ -8,9 +8,9 @@ import { PythonDevPage } from "@/components/site/PythonDevPage";
 import { PY_FAQS } from "@/lib/python-dev";
 
 const URL = "https://www.acsius.com/hire-python-developers";
-const TITLE = "Hire Python Developers India | Dedicated Python Programmers — ACSIUS";
+const TITLE = "Hire Dedicated Python Developer, Python Programmer for Hire";
 const DESCRIPTION =
-  "Hire dedicated Python developers in India from ACSIUS — senior Python programmers for hire across Django, FastAPI, data pipelines, automation and AI. Profiles in 48 hours.";
+  "Hire a Dedicated Python Developer from ACSIUS for robust, scalable applications. Trusted Python Programmer for Hire. Get a free quote today!";
 
 export const Route = createFileRoute("/hire-python-developers")({
   head: () => ({

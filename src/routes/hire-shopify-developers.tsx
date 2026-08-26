@@ -8,9 +8,9 @@ import { ShopifyDevPage } from "@/components/site/ShopifyDevPage";
 import { SHOPIFY_FAQS } from "@/lib/shopify-dev";
 
 const URL = "https://www.acsius.com/hire-shopify-developers";
-const TITLE = "Hire Shopify Developers | Shopify Web Development Company — ACSIUS";
+const TITLE = "Hire Dedicated Shopify Developer, Shopify Web Development Company";
 const DESCRIPTION =
-  "Hire dedicated Shopify developers from ACSIUS — a Shopify web development company offering Shopify website development services: custom themes, Hydrogen storefronts, private apps, checkout extensions and migrations. Profiles in 48 hours.";
+  "ACSIUS – Hire Dedicated Shopify Developers building fast, conversion-focused online stores. Trusted Shopify Web Development Services. Get a free quote!";
 
 export const Route = createFileRoute("/hire-shopify-developers")({
   head: () => ({

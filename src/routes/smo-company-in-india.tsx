@@ -8,9 +8,9 @@ import { SmoPage } from "@/components/site/SmoPage";
 import { SMO_FAQS } from "@/lib/smo";
 
 const URL = "https://www.acsius.com/smo-company-in-india";
-const TITLE = "SMO Company in India | Social Media Optimization Agency — ACSIUS";
+const TITLE = "SMO Company India, Social Media Marketing Agency";
 const DESCRIPTION =
-  "ACSIUS is an SMO company in India offering social media optimization services — profile optimisation, content calendars, community management and lead-level reporting. Plans from ₹24,000/month.";
+  "Grow your brand with ACSIUS, a trusted SMO Services in India. Expert Social Media Optimization & Marketing Agency services. Get a free quote today!";
 
 export const Route = createFileRoute("/smo-company-in-india")({
   head: () => ({

@@ -8,9 +8,9 @@ import { JsDevPage } from "@/components/site/JsDevPage";
 import { JS_FAQS } from "@/lib/javascript-dev";
 
 const URL = "https://www.acsius.com/hire-javascript-developers";
-const TITLE = "Hire JavaScript Developers India | Full Stack JS Experts — ACSIUS";
+const TITLE = "Hire Dedicated Javascript Developer, Full Stack Javascript Developer";
 const DESCRIPTION =
-  "Hire JavaScript developers from ACSIUS — dedicated JavaScript experts and full stack JavaScript developers for React, Node.js and TypeScript builds. Profiles in 48 hours.";
+  "Need a JavaScript expert? Hire a Dedicated JavaScript Developer from ACSIUS for fast, reliable results. Contact us today!";
 
 export const Route = createFileRoute("/hire-javascript-developers")({
   head: () => ({

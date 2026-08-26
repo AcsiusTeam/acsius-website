@@ -8,9 +8,9 @@ import { SD_FAQS } from "@/lib/seo-delhi";
 import { CONTACT } from "@/lib/site";
 
 const URL = "https://www.acsius.com/seo-company-in-delhi";
-const TITLE = "SEO Company in Delhi | Best SEO Services in Delhi — ACSIUS";
+const TITLE = "Best SEO Company in Delhi, SEO Services in Delhi";
 const DESCRIPTION =
-  "ACSIUS is an SEO company in Delhi delivering technical SEO, keyword strategy, content and editorial link building, with reporting on calls and revenue. Free scored audit first.";
+  "Looking for the Best SEO Company in Delhi? ACSIUS delivers proven SEO Services in Delhi to grow your traffic & sales. Get a free audit today!";
 
 export const Route = createFileRoute("/seo-company-in-delhi")({
   head: () => ({

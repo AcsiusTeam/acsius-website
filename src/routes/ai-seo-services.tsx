@@ -8,9 +8,9 @@ import { AiSeoPage } from "@/components/site/AiSeoPage";
 import { AISEO_FAQS } from "@/lib/ai-seo";
 
 const URL = "https://www.acsius.com/ai-seo-services";
-const TITLE = "AI SEO Services India | AI SEO Company | ACSIUS";
+const TITLE = "AI SEO Services India, AEO Company in India";
 const DESCRIPTION =
-  "ACSIUS is an AI SEO company in India offering AI SEO optimization — entity optimisation, schema, answer-first content and citation tracking. Free audit.";
+  "ACSIUS – Leading AI SEO Services India & AEO Company helping brands rank on Google, ChatGPT & AI Overviews. Get a free consultation today!";
 
 export const Route = createFileRoute("/ai-seo-services")({
   head: () => ({

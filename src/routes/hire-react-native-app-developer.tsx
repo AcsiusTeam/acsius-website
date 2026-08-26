@@ -9,9 +9,9 @@ import { CONTACT } from "@/lib/site";
 import { RN_FAQS } from "@/lib/react-native-dev";
 
 const URL = "https://www.acsius.com/hire-react-native-app-developer";
-const TITLE = "Hire React Native Developers India | App Development Company — ACSIUS";
+const TITLE = "Hire React Native Developers in India, React Native Development Company";
 const DESCRIPTION =
-  "Hire React Native developers in India from ACSIUS — a React Native app development company building cross-platform iOS and Android apps. Hire dedicated React Native programmers with profiles in 48 hours.";
+  "Hire React Native Developers in India from ACSIUS, a trusted React Native App Development Company. Get a free consultation today!";
 
 export const Route = createFileRoute("/hire-react-native-app-developer")({
   head: () => ({

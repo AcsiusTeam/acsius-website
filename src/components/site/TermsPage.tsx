@@ -15,7 +15,7 @@ const INTRO: Block[] = [
   },
   {
     kind: "p",
-    html: "The purpose of these Terms &amp; Conditions is to ensure the proper use of the website <strong>www.acsius-com</strong> and to govern the use of services provided by ACSIUS, whether fee-based or free of charge.",
+    html: "The purpose of these Terms &amp; Conditions is to ensure the proper use of the website <strong>www.acsius.com</strong> and to govern the use of services provided by ACSIUS, whether fee-based or free of charge.",
   },
   {
     kind: "p",

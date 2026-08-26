@@ -8,9 +8,9 @@ import { WebsiteRedesignPage } from "@/components/site/WebsiteRedesignPage";
 import { WR_FAQS } from "@/lib/website-redesign";
 
 const URL = "https://www.acsius.com/website-redesign-company";
-const TITLE = "Website Redesign Company India | Redesign Services";
+const TITLE = "Website Redesign Company India, Website Redesign Services India";
 const DESCRIPTION =
-  "Website redesign company in India rebuilding slow, dated sites into fast, modern, conversion-first websites — redirect mapping, SEO migration and Core Web Vitals handled. Live in 4-6 weeks.";
+  "ACSIUS – Website Redesign Company India with 1000+ websites revamped. Trusted website redesign services for growth. Get a free consultation today!";
 
 export const Route = createFileRoute("/website-redesign-company")({
   head: () => ({

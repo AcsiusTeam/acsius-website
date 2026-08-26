@@ -8,9 +8,9 @@ import { ContentWritingPage } from "@/components/site/ContentWritingPage";
 import { CW_FAQS } from "@/lib/content-writing";
 
 const URL = "https://www.acsius.com/content-writing-services";
-const TITLE = "Content Writing Services India | Content Writing Company | ACSIUS";
+const TITLE = "Content Writing Companies in India, Content Writing Agencies in India";
 const DESCRIPTION =
-  "ACSIUS is a content writing company in India — website copy, blogs, product descriptions, case studies and email sequences written by sector writers and edited by humans.";
+  "ACSIUS – Leading Content Writing Agency in India offering blogs, web copy & SEO content. Trusted Content Writing Company. Get a free quote today!";
 
 export const Route = createFileRoute("/content-writing-services")({
   head: () => ({

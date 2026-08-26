@@ -8,9 +8,9 @@ import { WordPressDevPage } from "@/components/site/WordPressDevPage";
 import { WPD_FAQS } from "@/lib/wordpress-dev";
 
 const URL = "https://www.acsius.com/hire-wordpress-developers";
-const TITLE = "Hire WordPress Developers India | WordPress Experts — ACSIUS";
+const TITLE = "Hire Professional Wordpress Developers, Hire Dedicated Wordpress Developer";
 const DESCRIPTION =
-  "Hire professional WordPress developers from ACSIUS — a WordPress web development company in India. Hire dedicated WordPress developers for themes, plugins, WooCommerce, migrations and support. Profiles in 48 hours.";
+  "Hire Professional WordPress Developers from ACSIUS for custom, secure WordPress Website Development Services. Get a free consultation today!";
 
 export const Route = createFileRoute("/hire-wordpress-developers")({
   head: () => ({

@@ -8,9 +8,9 @@ import { AwsDevPage } from "@/components/site/AwsDevPage";
 import { AWS_FAQS } from "@/lib/aws-dev";
 
 const URL = "https://www.acsius.com/hire-aws-developers";
-const TITLE = "Hire AWS Developers India | AWS Consultants & Certified Devs — ACSIUS";
+const TITLE = "Hire AWS Developers India, AWS App Development Services";
 const DESCRIPTION =
-  "Hire AWS developers and AWS consultants in India from ACSIUS — certified engineers for serverless apps, ECS/EKS, migrations, DevOps and cost reviews. Profiles in 48 hours.";
+  "Hire AWS Certified Developers on hourly, part-time or full-time basis. Trusted AWS App Development Services by ACSIUS. Get a free quote now!";
 
 export const Route = createFileRoute("/hire-aws-developers")({
   head: () => ({

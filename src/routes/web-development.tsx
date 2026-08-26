@@ -8,9 +8,9 @@ import { WebDevelopmentPage } from "@/components/site/WebDevelopmentPage";
 import { WEB_FAQS } from "@/lib/web-development";
 
 const URL = "https://www.acsius.com/web-development";
-const TITLE = "Web Development Company in India | Website Development Services — ACSIUS";
+const TITLE = "Website Development Company India, Website Development Services India";
 const DESCRIPTION =
-  "ACSIUS is a web development company in India offering website development services, web development services India, ecommerce, CMS and landing pages. Hire a website development company in India. Free quote.";
+  "ACSIUS – Website Development Company in India with 1000+ projects delivered. Trusted Website Development Services for businesses. Free quote today!";
 
 export const Route = createFileRoute("/web-development")({
   head: () => ({

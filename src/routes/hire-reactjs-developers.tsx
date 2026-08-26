@@ -9,9 +9,9 @@ import { CONTACT } from "@/lib/site";
 import { RCT_FAQS } from "@/lib/react-dev";
 
 const URL = "https://www.acsius.com/hire-reactjs-developers";
-const TITLE = "Hire ReactJS Developers India | React JS Development Company — ACSIUS";
+const TITLE = "Hire Dedicated React App Developers, React JS Development Company";
 const DESCRIPTION =
-  "Hire ReactJS developers from ACSIUS — a React JS development company in India. Hire a dedicated React JS developer or remote React developer for dashboards, SaaS front-ends, Next.js and API work. Profiles in 48 hours.";
+  "ACSIUS – React Development Company in India building high-performance, responsive web & mobile apps. Hire Dedicated React Developers today!";
 
 export const Route = createFileRoute("/hire-reactjs-developers")({
   head: () => ({

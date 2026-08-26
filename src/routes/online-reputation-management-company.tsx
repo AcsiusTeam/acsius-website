@@ -8,9 +8,9 @@ import { OrmPage } from "@/components/site/OrmPage";
 import { ORM_FAQS } from "@/lib/orm";
 
 const URL = "https://www.acsius.com/online-reputation-management-company";
-const TITLE = "Online Reputation Management Company India | ORM Services — ACSIUS";
+const TITLE = "Online Reputation Management Company, ORM Services Company India";
 const DESCRIPTION =
-  "ACSIUS is an online reputation management company in India offering ORM services — 24x7 monitoring, search suppression, review growth, removals and crisis response with weekly reporting.";
+  "Searching for a trusted ORM Services Company in India? ACSIUS delivers customized Online Reputation Management solutions to build brand credibility.";
 
 export const Route = createFileRoute("/online-reputation-management-company")({
   head: () => ({

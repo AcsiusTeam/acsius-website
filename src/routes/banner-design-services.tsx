@@ -8,9 +8,9 @@ import { BannerDesignPage } from "@/components/site/BannerDesignPage";
 import { BD_FAQS } from "@/lib/banner-design";
 
 const URL = "https://www.acsius.com/banner-design-services";
-const TITLE = "Banner Design Service India | Flyer & Brochure Design | ACSIUS";
+const TITLE = "Banner Design Service India, Brochure Design Company India";
 const DESCRIPTION =
-  "Banner design service India with flyer design services and brochure design company India expertise — ad banners, print-ready flyers and brochures, plus Google Ads landing pages.";
+  "Boost your brand visibility with ACSIUS, a trusted Brochure Design Company in India. Creative Banner Design Services too. Get a free quote today!";
 
 export const Route = createFileRoute("/banner-design-services")({
   head: () => ({

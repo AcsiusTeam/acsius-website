@@ -8,9 +8,9 @@ import { LogoDesignPage } from "@/components/site/LogoDesignPage";
 import { LD_FAQS } from "@/lib/logo-design";
 
 const URL = "https://www.acsius.com/logo-design-company";
-const TITLE = "Logo Design Company in India | Creative Logo Design | ACSIUS";
+const TITLE = "Logo Design Company in India, Logo Design Services in India";
 const DESCRIPTION =
-  "ACSIUS offers logo design services in India — creative logo design, monograms and full identity kits with vector source files. Three routes in 48 hours. Get a quote.";
+  "Build a memorable brand with ACSIUS, a trusted Logo Design Company in India. Creative Logo Design Services for businesses. Get a free quote today!";
 
 export const Route = createFileRoute("/logo-design-company")({
   head: () => ({

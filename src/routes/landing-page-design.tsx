@@ -8,9 +8,9 @@ import { LandingPageDesignPage } from "@/components/site/LandingPageDesignPage";
 import { LP_FAQS } from "@/lib/landing-page";
 
 const URL = "https://www.acsius.com/landing-page-design";
-const TITLE = "Landing Page Design Services India | ACSIUS";
+const TITLE = "Landing Page Design Services India, Landing Page Designing Agency India";
 const DESCRIPTION =
-  "Landing page design company in India building single, conversion-first pages for Google Ads and PPC — message-matched copy, fast load, tracking and A/B testing. Live in 7 days.";
+  "ACSIUS – Landing Page Design Company India with 100+ pages designed. Trusted Landing Page Design Services for campaigns. Get a free quote today!";
 
 export const Route = createFileRoute("/landing-page-design")({
   head: () => ({

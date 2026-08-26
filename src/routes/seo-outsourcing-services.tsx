@@ -8,9 +8,9 @@ import { SO_FAQS } from "@/lib/seo-outsourcing";
 import { CONTACT } from "@/lib/site";
 
 const URL = "https://www.acsius.com/seo-outsourcing-services";
-const TITLE = "SEO Outsourcing Company India | White-Label SEO Services — ACSIUS";
+const TITLE = "SEO Outsourcing Services India, SEO Outsourcing Agency India";
 const DESCRIPTION =
-  "ACSIUS is an SEO outsourcing company in India for agencies and in-house teams — white-label audits, technical fixes, content, link building and reporting under your brand. Get a partner rate card.";
+  "ACSIUS – SEO Outsourcing Company India with 100+ successful partnerships. Trusted SEO Outsourcing Services for agencies. Get a free consultation!";
 
 export const Route = createFileRoute("/seo-outsourcing-services")({
   head: () => ({

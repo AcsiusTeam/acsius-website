@@ -8,9 +8,9 @@ import { FlutterDevPage } from "@/components/site/FlutterDevPage";
 import { FLT_FAQS } from "@/lib/flutter-dev";
 
 const URL = "https://www.acsius.com/hire-flutter-app-developers";
-const TITLE = "Hire Flutter App Developers India | Flutter Development — ACSIUS";
+const TITLE = "Hire Flutter Developers in India, Flutter App Development Company";
 const DESCRIPTION =
-  "Hire Flutter app developers from ACSIUS — a Flutter app development company in India. Hire dedicated Flutter developers for iOS, Android and web apps. Profiles in 48 hours.";
+  "Hire Dedicated Flutter Developers in India on hourly, part-time or full-time basis. Custom Flutter App Development Services. Get a free quote!";
 
 export const Route = createFileRoute("/hire-flutter-app-developers")({
   head: () => ({

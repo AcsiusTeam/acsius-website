@@ -8,9 +8,9 @@ import { WebDesignPage } from "@/components/site/WebDesignPage";
 import { WD_FAQS } from "@/lib/web-design";
 
 const URL = "https://www.acsius.com/website-design-company-india";
-const TITLE = "Website Design Company India | Web Design Services — ACSIUS";
+const TITLE = "Website Designing Company India, Affordable Web Design Services";
 const DESCRIPTION =
-  "Affordable web design services in India by ACSIUS — a website designing company delivering UI/UX, WordPress, Shopify and custom website development. Fixed scope, SEO-ready builds, free consultation.";
+  "Get a stunning, budget-friendly website with ACSIUS, a leading Website Designing Company in India. Affordable Web Design Services. Contact us!";
 
 export const Route = createFileRoute("/website-design-company-india")({
   head: () => ({
