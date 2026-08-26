@@ -26,7 +26,7 @@ export async function sendContactEmail(data: ContactEmailData) {
 
   await transporter.sendMail({
     from: process.env.MAIL_FROM,
-    to: process.env.MAIL_TO || "info@acsius.com",
+    to: process.env.CONTACT_MAIL_TO || "info@acsius.com",
 
     replyTo: data.email,
 

@@ -31,7 +31,7 @@ export async function sendApplicationEmail(
 
   await transporter.sendMail({
     from: process.env.MAIL_FROM,
-    to: process.env.MAIL_TO || "info@acsius.com",
+    to: process.env.CAREER_MAIL_TO || "careers@acsius.com",
 
     replyTo: data.email,
 
