@@ -43,12 +43,12 @@ export const CORE_TEAM: {
   { name: "Rahul Bansal", role: "Project Manager" },
   { name: "Mayank Nagpal", role: "Sr. Technical Team Lead" },
   { name: "Soyeb Akhtar", role: "Technical Team Lead" },
-  { name: "Raghav Chaudhary", role: "SEO Team Lead" },
-  { name: "Ajay Singh", role: "Email Marketing Head" },
   { name: "Nitesh Kumar", role: "Sr. Shopify Developer" },
   { name: "Chandan Saini", role: "Sr. WordPress Developer" },
-  { name: "Subhash Chand", role: "Senior WordPress Developer" },
+  { name: "Subhash Chand", role: "Sr. WordPress Developer" },
   { name: "Md. Asif", role: "Front End Developer" },
+  { name: "Raghav Chaudhary", role: "SEO Team Lead" },
+  { name: "Ajay Singh", role: "Email Marketing Head" },
   { name: "Gurneet Kaur", role: "HR & Account Department" },
 ];
 
