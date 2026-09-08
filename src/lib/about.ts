@@ -41,6 +41,7 @@ export const CORE_TEAM: {
   { name: "Arun Singh", role: "CEO & Founder", image: arunSingh },
   { name: "Chandan Kumar", role: "Director" },
   { name: "Rahul Bansal", role: "Project Manager" },
+    { name: "Manish Kumar", role: "Sales Head" },
   { name: "Mayank Nagpal", role: "Sr. Technical Team Lead" },
   { name: "Soyeb Akhtar", role: "Technical Team Lead" },
   { name: "Nitesh Kumar", role: "Sr. Shopify Developer" },
