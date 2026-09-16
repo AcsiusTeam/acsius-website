@@ -2,7 +2,7 @@ import { useState } from "react";
 import { MapPin } from "lucide-react";
 import { Reveal } from "@/components/motion";
 import { APPLY_FIELDS, CAREER_INTRO, OPENINGS, type Opening } from "@/lib/career";
-import { CONTACT } from "@/lib/site";
+import { CONTACT, CAREER_CONTACT } from "@/lib/site";
 import { submitApplicationForm } from "@/lib/career-form";
 
 /* ---------------- Hero ---------------- */
@@ -204,22 +204,22 @@ function ApplyForm({ role, setRole }: { role: string; setRole: (r: string) => vo
           </h2>
           <div className="mt-8 space-y-4">
             <a
-              href={`mailto:${CONTACT.email}`}
+              href={CAREER_CONTACT.emailHref}
               className="block rounded-2xl border border-line bg-card p-5 shadow-soft transition-colors hover:border-primary"
             >
               <p className="text-[10px] font-black uppercase tracking-[0.14em] text-muted-foreground">
                 Mail us
               </p>
-              <p className="mt-1 font-bold text-foreground">{CONTACT.email}</p>
+              <p className="mt-1 font-bold text-foreground">{CAREER_CONTACT.email}</p>
             </a>
             <a
-              href={CONTACT.phoneHref}
+              href={CAREER_CONTACT.phoneHref}
               className="block rounded-2xl border border-line bg-card p-5 shadow-soft transition-colors hover:border-primary"
             >
               <p className="text-[10px] font-black uppercase tracking-[0.14em] text-muted-foreground">
                 Call us
               </p>
-              <p className="mt-1 font-bold text-foreground">{CONTACT.phone}</p>
+              <p className="mt-1 font-bold text-foreground">{CAREER_CONTACT.phone}</p>
             </a>
             <a
               href={CONTACT.mapUrl}

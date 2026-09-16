@@ -1,6 +1,7 @@
 export const NAV = [
   { label: "Our Services", href: "/#services" },
   { label: "Our Work", href: "/our-work" },
+  { label: "Blog", href: "/blog" },
   { label: "About Us", href: "/about-us" },
   { label: "Career", href: "/career" },
   { label: "Contact", href: "/contact" },
@@ -16,6 +17,13 @@ export const CONTACT = {
   mapEmbed:
     "https://maps.google.com/maps?q=ACSIUS%2C%2052-A%2C%20301-3rd%20Floor%2C%20Krishna%20Complex%2C%20Hasanpur%2C%20New%20Delhi-110092%2C%20India&t=&z=16&ie=UTF8&iwloc=&output=embed",
 };
+
+export const CAREER_CONTACT = {
+  email: "hr@acsius.com",
+  emailHref: "mailto:hr@acsius.com",
+  phone: "+91 870 084 7803",
+  phoneHref: "tel:+918700847803",
+}
 
 export const SOCIALS = [
   { label: "Facebook", href: "https://www.facebook.com/ACSIUS" },
