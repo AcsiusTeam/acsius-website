@@ -9,8 +9,8 @@ import {
 } from "@tanstack/react-router";
 import { MessageCircle } from "lucide-react";
 import { useEffect, type ReactNode } from "react";
-
-import appCss from "../styles.css?url";
+import "../styles.css";
+/* import appCss from "../styles.css?url"; */
 import { reportLovableError } from "../lib/lovable-error-reporting";
 
 function NotFoundComponent() {
@@ -35,7 +35,8 @@ function NotFoundComponent() {
   );
 }
 
-function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
+function ErrorComponent({ error: rawError, reset }: { error: unknown; reset: () => void }) {
+  const error = rawError instanceof Error ? rawError : new Error(String(rawError));
   console.error(error);
   const router = useRouter();
   useEffect(() => {
@@ -95,16 +96,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
-      {
+      /* {
         rel: "stylesheet",
         href: appCss,
-      },
+      }, 
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
         rel: "stylesheet",
         href: "https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Manrope:wght@400;500;600;700&display=swap",
-      },
+      },*/
       { rel: "icon", type: "image/png", href: "/favicon.png" },
     ],
     // Google Analytics
