@@ -44,6 +44,7 @@ const SECTIONS: Block[] = [
       "To process payments, billing, and account management",
       "To improve website performance and user experience",
       "To communicate with users regarding updates, offers, or service-related information",
+      "To respond to contact form enquiries, including the page URL and associated IP address and the approximate city and country inferred from that IP address",
     ],
   },
   {

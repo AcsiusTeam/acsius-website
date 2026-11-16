@@ -4,10 +4,14 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
+    "predev": "npm run geoip:update -- --allow-missing",
     "dev": "vite dev",
+    "prebuild": "npm run geoip:update",
     "build": "vite build",
+    "prebuild:dev": "npm run geoip:update",
     "build:dev": "vite build --mode development",
-    "preview": "vite preview",
+    "preview": "node .output/server/index.mjs",
+    "geoip:update": "node scripts/update-geoip-db.mjs",
     "lint": "eslint .",
     "format": "prettier --write ."
   },
@@ -53,6 +57,7 @@
     "embla-carousel-react": "^8.6.0",
     "input-otp": "^1.4.2",
     "lucide-react": "^0.575.0",
+    "maxmind": "^5.1.0",
     "nodemailer": "^9.0.5",
     "react": "^19.2.0",
     "react-day-picker": "^9.14.0",

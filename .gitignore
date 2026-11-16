@@ -16,6 +16,9 @@ dist-ssr
 .nitro
 *.local
 .env
+/data/*.mmdb
+/data/*.release
+/data/*.tmp
 
 # Wrangler / Cloudflare
 .wrangler/

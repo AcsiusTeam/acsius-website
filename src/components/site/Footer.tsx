@@ -139,6 +139,18 @@ export function Footer() {
 
         <div className="mt-14 flex flex-col gap-4 border-t border-navy-foreground/12 pt-7 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-xs text-navy-foreground/55">
+            <span className="mb-1 block">
+              This site uses the DB-IP Lite database. {" "}
+              <a
+                href="https://db-ip.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline underline-offset-2 hover:text-navy-foreground"
+              >
+                IP Geolocation by DB-IP
+              </a>
+              .
+            </span>
             © {new Date().getFullYear()} ACSIUS Technologies. All rights reserved.
           </p>
           <ul className="flex flex-wrap gap-4 sm:gap-6">

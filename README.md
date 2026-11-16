@@ -676,6 +676,12 @@ Continue developing this project in the [Lovable editor](https://lovable.dev/pro
 - **Stay in sync**: every change made in Lovable is committed straight to this repository.
 - **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
+## Contact form IP location
+
+Contact form location is resolved locally with the DB-IP Lite City MMDB database; submissions do not call an IP geolocation API. The database file is downloaded by `npm run dev` and `npm run build`, ignored by Git, and refreshed when a newer monthly release is available. To update it manually, run `npm run geoip:update`.
+
+DB-IP Lite provides approximate city and country data under CC BY 4.0 and requires attribution. The site footer includes the required DB-IP link. See [DB-IP's database details and license](https://db-ip.com/db/download/ip-to-city-lite).
+
 ## Development
 
 Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).

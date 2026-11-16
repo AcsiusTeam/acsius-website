@@ -225,6 +225,10 @@ export function Contact() {
                     : "Send enquiry"}
               </button>
 
+              <p className="mt-3 text-center text-xs text-muted-foreground">
+                Submitting this form sends the page URL, IP address, and approximate IP-based location with your enquiry.
+              </p>
+
               <p aria-live="polite" className="mt-4 text-center text-xs text-muted-foreground">
                 {error
                   ? error
